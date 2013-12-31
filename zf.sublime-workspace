@@ -1,0 +1,230 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cho",
+				"chown"
+			],
+			[
+				"batc",
+				"batch-data"
+			],
+			[
+				"d",
+				"dir"
+			],
+			[
+				"get",
+				"getcwd"
+			],
+			[
+				"tr",
+				"transfer"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"if",
+				"if	if …"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"Z",
+				"Zend_Debug"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 243.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/financials/application/layouts/scripts/layout.phtml",
+		"/var/www/shop/index.php",
+		"/var/www/shop/app/etc/local.xml",
+		"/var/www/shop/includes/config.php",
+		"/var/www/shop/app/Mage.php",
+		"/var/www/druppel/includes/filetransfer/ssh.inc",
+		"/var/www/druppel/druppel.sublime-workspace",
+		"/var/www/druppel/druppel.sublime-project",
+		"/var/www/druppel/drupal.sublime-workspace",
+		"/var/www/train2rail_app/train2rail.php",
+		"/var/www/train2rail_app/App.php",
+		"/var/www/train2rail_app/Dev.php",
+		"/var/www/train2rail_app/test.html",
+		"/var/www/drupal/index.php",
+		"/var/www/curl_app/App.php",
+		"/var/www/curl_app/curl_run.php",
+		"/var/www/curl_app/curltest.php",
+		"/var/www/bewantime_local/application/modules/staff/controllers/ContractController.php",
+		"/var/www/bewantime_local/application/modules/staff/controllers/AbsenceController.php",
+		"/var/www/bewantime_local/application/modules/task/controllers/UpdatedDistributionController.php",
+		"/var/www/bewantime_local/application/controllers/DevController.php",
+		"/var/www/bewantime_local/application/modules/printing/controllers/TimesheetController.php",
+		"/var/www/lancefree.html",
+		"/home/user/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/var/www/shop",
+			"/var/www/druppel",
+			"/var/www/drupal"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tamboeov",
+			"settings.php",
+			"DatabaseConnection_mysql",
+			"connection",
+			"=",
+			"p"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"dev",
+				"Dev.php"
+			],
+			[
+				"tr",
+				"train2rail.php"
+			],
+			[
+				"",
+				"Dev.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 264.0,
+	"status_bar_visible": true
+}

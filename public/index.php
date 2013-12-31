@@ -10,7 +10,9 @@ defined('APPLICATION_ENV')
 
 // Ensure library/ is on include_path
 set_include_path(implode(PATH_SEPARATOR, array(
-    realpath(APPLICATION_PATH . '/../library'),
+    realpath(APPLICATION_PATH . '/../library'), 
+    //realpath(APPLICATION_PATH . '/Services'), 	//EITHER include path here and name class without folder
+    realpath(APPLICATION_PATH),						//OR include general path here and name class with folder
     get_include_path(),
 )));
 
@@ -22,6 +24,10 @@ $application = new Zend_Application(
     APPLICATION_ENV,
     APPLICATION_PATH . '/configs/application.ini'
 );
+
+
+$autoloader = Zend_Loader_Autoloader::getInstance();
+$autoloader->setFallbackAutoloader(true);
 
 $application->bootstrap()
             ->run();
