@@ -1,7 +1,7 @@
 
 <?php
 
-class Services_Json{
+class App_Services_Json{
 
 	static function jsonData(){
 		$data = array(

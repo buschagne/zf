@@ -1,6 +1,6 @@
 <?php
 
-class Services_User {
+class App_Services_User {
 
     protected $_em;    
 
