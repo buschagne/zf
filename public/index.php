@@ -1,5 +1,7 @@
 <?php
 
+date_default_timezone_set('Europe/Brussels');
+
 // Define path to application directory
 defined('APPLICATION_PATH')
     || define('APPLICATION_PATH', realpath(dirname(__FILE__) . '/../application'));
