@@ -15,7 +15,7 @@ class IndexController extends Zend_Controller_Action
     {
         
         $user = $this->_service->fetchOneBy(
-                array('id' => 2), array('hydrate' => true));
+                array('id' => 1), array('hydrate' => true));
         Zend_Debug::dump($user);
         
         $this->view->actionContent = 'action-content';
