@@ -8,7 +8,7 @@ class IndexController extends Zend_Controller_Action
     public function init()
     {
         /* Initialize action controller here */
-        $this->_service = new Services_User();
+        $this->_service = new App_Services_User();
     }
 
     public function indexAction()
@@ -21,10 +21,10 @@ class IndexController extends Zend_Controller_Action
         $this->view->actionContent = 'action-content';
         
         
-        $data = Services_Json::jsonData();
+        $data = App_Services_Json::jsonData();
         Zend_Debug::dump($data);
 
-        $x = Plugins_Welcome::hello();
+        $x = App_Plugins_Welcome::hello();
         echo $x;
         
     }
