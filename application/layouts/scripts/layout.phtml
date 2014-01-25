@@ -20,14 +20,13 @@
     </head>
     <body>              
 
-      <div class="container">
-        
+
         <?php if (isset($this->messages)): ?>
           <?php echo $this->partial('partials/messenger.phtml', array('messages' => $this->messages)); ?>
         <?php endif ?>
 
         <?php echo $this->layout()->content ?>
-      </div>
+      
         
 
 
@@ -45,8 +44,6 @@
             ->appendStylesheet($host ."/css/color-palette.css")
             ->appendStylesheet($host ."/css/color-palette-full.css")
             ->appendStylesheet($host ."/css/docs.css")
-            ->appendStylesheet("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300'")
-            ->appendStylesheet($host ."/css2/app.css")
     ;
   }
 
@@ -55,12 +52,12 @@
     $host = $baseUrl;
     $headScriptHelper = new Zend_View_Helper_HeadScript();
     $headScriptHelper
-            //->appendFile("//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js", "text/javascript")
-            //->appendFile("//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js", "text/javascript")
+            ->appendFile("//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js", "text/javascript")
+            ->appendFile("//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js", "text/javascript")
             //->appendFile($host ."/js/bootstrap.min.js", "text/javascript")
-            //->appendFile($host ."/js/flat.js", "text/javascript")
-            ->appendFile($host ."/js2/alertify.js", "text/javascript")            
-            //->appendFile($host ."/js2/app.js", "text/javascript")
+            ->appendFile($host ."/js/flat.js", "text/javascript")
+            ->appendFile($host ."/js/alertify.js", "text/javascript")            
+
     ;
   }
 

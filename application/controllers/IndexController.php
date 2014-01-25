@@ -13,8 +13,6 @@ class IndexController extends Zend_Controller_Action {
   public function indexAction()
   {
 
-    $this->_helper->_layout->setLayout('layout2');
-
     $this->_helper->flashMessenger->setNameSpace('success')->addMessage('User added.');
     $this->_helper->flashMessenger->setNameSpace('info')->addMessage('User could not be added.');
     $this->_helper->flashMessenger->setNameSpace('error')->addMessage('Please complete the form errors.');
