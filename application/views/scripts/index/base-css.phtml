@@ -1,0 +1,2146 @@
+        <!-- Navbar -->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="brand" href="./base-css.html">Bootstrap</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="">
+                                <a href="./index.html">Home</a>
+                            </li>
+                            <li class="active">
+                                <a href="./base-css.html">Base CSS</a>
+                            </li>
+                            <li class="">
+                                <a href="./components.html">Components</a>
+                            </li>
+                            <li class="">
+                                <a href="./javascript.html">JavaScript</a>
+                            </li>
+                            <li class="">
+                                <a href="./extras.html">Extras</a>
+                            </li>
+                            <li class="">
+                                <a href="./examples.html">Examples</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Subhead -->
+        <header class="jumbotron subhead" id="overview">
+            <div class="container">
+                <h1>Base CSS</h1>
+                <p class="lead">Fundamental HTML elements styled and enhanced with extensible classes.</p>
+            </div>
+        </header>
+
+
+        <div class="container">
+
+            <!-- Docs nav -->
+            <div class="row">
+                <div class="span3 bs-docs-sidebar">
+                    <ul class="nav nav-list bs-docs-sidenav affix-top">
+                        <li class="active"><a href="#typography"><i class="icon-chevron-right"></i> Typography</a></li>
+                        <li class=""><a href="#code"><i class="icon-chevron-right"></i> Code</a></li>
+                        <li class=""><a href="#tables"><i class="icon-chevron-right"></i> Tables</a></li>
+                        <li class=""><a href="#forms"><i class="icon-chevron-right"></i> Forms</a></li>
+                        <li><a href="#buttons"><i class="icon-chevron-right"></i> Buttons</a></li>
+                    </ul>
+                </div>
+                <div class="span9">
+
+
+                    <!-- Typography
+                    ================================================== -->
+                    <section id="typography">
+                        <div class="page-header">
+                            <h1>Typography</h1>
+                        </div>
+
+                        <h2 id="headings">Headings</h2>
+                        <div class="bs-docs-example">
+                            <h1>h1. Heading 1</h1>
+                            <h2>h2. Heading 2</h2>
+                            <h3>h3. Heading 3</h3>
+                            <h4>h4. Heading 4</h4>
+                            <h5>h5. Heading 5</h5>
+                            <h6>h6. Heading 6</h6>
+                        </div>
+                        
+                        <p>Add <code>.txt-[color]</code> to a heading to change its color.</p>
+                        <div class="bs-docs-example">
+                            <h1 class="txt-turquoise">h1. Heading 1</h1>
+                            <h2 class="txt-peter-river">h2. Heading 2</h2>
+                            <h3 class="txt-amethyst">h3. Heading 3</h3>
+                            <h4 class="txt-alizarin">h4. Heading 4</h4>
+                            <h5 class="txt-sun-flower">h5. Heading 5</h5>
+                            <h6 class="txt-green-sea">h6. Heading 6</h6>
+                        </div>
+
+                        <h2 id="body-copy">Body copy</h2>
+                        <div class="bs-docs-example">
+                            <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+                            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                            <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+                        </div>
+                        <p>Add <code>.txt-[color]</code> to a <code>p</code> to change its color.</p>
+                        <div class="bs-docs-example">
+                            <p class="txt-turquoise">Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+                            <p class="txt-peter-river">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                            <p class="txt-alizarin">Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+                        </div>
+
+                        <h3>Lead body copy</h3>
+                        <div class="bs-docs-example">
+                            <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
+                        </div>
+
+                        <hr class="bs-docs-separator">
+
+                        <h2 id="emphasis">Emphasis</h2>
+
+                        <h3>Small</h3>
+                        <div class="bs-docs-example">
+                            <p><small>This line of text is meant to be treated as fine print.</small></p>
+                        </div>
+
+                        <h3>Bold</h3>
+                        <div class="bs-docs-example">
+                            <p>The following snippet of text is <strong>rendered as bold text</strong>.</p>
+                        </div>
+
+                        <h3>Italics</h3>
+                        <div class="bs-docs-example">
+                            <p>The following snippet of text is <em>rendered as italicized text</em>.</p>
+                        </div>
+                        
+                        <h3>Color Palette</h3>
+                        <p>Add <code>.txt-[color]</code> to <code>small</code>, <code>strong</code> and <code>em</code> to change their color.</p>
+                        <div class="bs-docs-example">
+                            <p><small class="txt-turquoise">This line of text is meant to be treated as fine print.</small></p>
+                            <p>The following snippet of text is <strong class="txt-turquoise">rendered as bold text</strong>.</p>
+                            <p>The following snippet of text is <em class="txt-turquoise">rendered as italicized text</em>.</p>
+                        </div>
+
+                        <h3>Alignment classes</h3>
+                        <div class="bs-docs-example">
+                            <p class="text-left">Left aligned text.</p>
+                            <p class="text-center">Center aligned text.</p>
+                            <p class="text-right">Right aligned text.</p>
+                        </div>
+
+                        <h3>Emphasis classes</h3>
+                        <div class="bs-docs-example">
+                            <p class="muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+                            <p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+                            <p class="text-error">Donec ullamcorper nulla non metus auctor fringilla.</p>
+                            <p class="text-info">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis.</p>
+                            <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+                        </div>
+
+                        <hr class="bs-docs-separator">
+
+                        <h2 id="abbreviations">Abbreviations</h2>
+                        <div class="bs-docs-example">
+                            <p>An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.</p>
+                        </div>
+                        
+                        <p>Add <code>.txt-[color]</code> to  an <code>abbr</code> to change its color.</p>
+                        <div class="bs-docs-example">
+                            <p>An abbreviation of the word attribute is <abbr title="attribute" class="txt-turquoise">attr</abbr>.</p>
+                        </div>
+
+                        <hr class="bs-docs-separator">
+
+                        <h2 id="addresses">Addresses</h2>
+                        <div class="bs-docs-example">
+                            <address>
+                                <strong>Twitter, Inc.</strong><br>
+                                795 Folsom Ave, Suite 600<br>
+                                San Francisco, CA 94107<br>
+                                <abbr title="Phone">P:</abbr> (123) 456-7890
+                            </address>
+                            <address>
+                                <strong>Full Name</strong><br>
+                                <a href="mailto:#">first.last@example.com</a>
+                            </address>
+                        </div>
+                        <p>Add <code>.txt-[color]</code> to  an <code>address</code> to change its color.</p>
+                        <div class="bs-docs-example">
+                            <address class="txt-turquoise">
+                                <strong>Twitter, Inc.</strong><br>
+                                795 Folsom Ave, Suite 600<br>
+                                San Francisco, CA 94107<br>
+                                <abbr title="Phone">P:</abbr> (123) 456-7890
+                            </address>
+                            <address class="txt-turquoise">
+                                <strong>Full Name</strong><br>
+                                <a href="mailto:#">first.last@example.com</a>
+                            </address>
+                        </div>
+
+                        <hr class="bs-docs-separator">
+
+                        <h2 id="blockquotes">Blockquotes</h2>
+
+                        <h3>Default blockquote</h3>
+                        <div class="bs-docs-example">
+                            <blockquote>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                            </blockquote>
+                        </div>
+
+                        <h3>Blockquote options</h3>
+
+                        <h4>Naming a source</h4>
+                        <div class="bs-docs-example">
+                            <blockquote>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                            </blockquote>
+                        </div>
+
+                        <h4>Right aligned blockquote</h4>
+                        <div class="bs-docs-example" style="overflow: hidden;">
+                            <blockquote class="pull-right">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                            </blockquote>
+                        </div>
+                        
+                        <h3>Color Palette</h3>
+                        <p>Add <code>.txt-[color]</code> to  a <code>blockquote</code> to change its color.</p>
+                        <div class="bs-docs-example">
+                            <blockquote class="txt-turquoise">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                            </blockquote>
+                            <blockquote class="txt-peter-river">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                            </blockquote>
+                            <blockquote class="txt-alizarin">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                            </blockquote>
+                            <blockquote class="txt-wet-asphalt">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                            </blockquote>
+                        </div>
+                        <div class="bs-docs-example">
+                            <blockquote class="txt-turquoise">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                            </blockquote>
+                            <blockquote class="txt-peter-river">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                            </blockquote>
+                            <blockquote class="txt-alizarin">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                            </blockquote>
+                            <blockquote class="txt-wet-asphalt">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                            </blockquote>
+                        </div>
+
+                        <hr class="bs-docs-separator">
+
+
+                        <!-- Lists -->
+                        <h2 id="lists">Lists</h2>
+
+                        <h3>Unordered</h3>
+                        <div class="bs-docs-example">
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Consectetur adipiscing elit</li>
+                                <li>Integer molestie lorem at massa</li>
+                                <li>Facilisis in pretium nisl aliquet</li>
+                                <li>Nulla volutpat aliquam velit
+                                    <ul>
+                                        <li>Phasellus iaculis neque</li>
+                                        <li>Purus sodales ultricies</li>
+                                        <li>Vestibulum laoreet porttitor sem</li>
+                                        <li>Ac tristique libero volutpat at</li>
+                                    </ul>
+                                </li>
+                                <li>Faucibus porta lacus fringilla vel</li>
+                                <li>Aenean sit amet erat nunc</li>
+                                <li>Eget porttitor lorem</li>
+                            </ul>
+                        </div>
+                        <p>Add <code>.txt-[color]</code> to an <code>ul</code> or its <code>li</code>'s individually.</p>
+                        <div class="bs-docs-example txt-turquoise">
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Consectetur adipiscing elit</li>
+                                <li>Integer molestie lorem at massa</li>
+                                <li>Facilisis in pretium nisl aliquet</li>
+                                <li>Nulla volutpat aliquam velit
+                                    <ul class="txt-peter-river">
+                                        <li>Phasellus iaculis neque</li>
+                                        <li>Purus sodales ultricies</li>
+                                        <li>Vestibulum laoreet porttitor sem</li>
+                                        <li>Ac tristique libero volutpat at</li>
+                                    </ul>
+                                </li>
+                                <li class="txt-alizarin">Faucibus porta lacus fringilla vel</li>
+                                <li class="txt-amethyst">Aenean sit amet erat nunc</li>
+                                <li class="txt-carrot">Eget porttitor lorem</li>
+                            </ul>
+                        </div>
+
+                        <h3>Ordered</h3>
+                        <div class="bs-docs-example">
+                            <ol>
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Consectetur adipiscing elit</li>
+                                <li>Integer molestie lorem at massa</li>
+                                <li>Facilisis in pretium nisl aliquet</li>
+                                <li>Nulla volutpat aliquam velit</li>
+                                <li>Faucibus porta lacus fringilla vel</li>
+                                <li>Aenean sit amet erat nunc</li>
+                                <li>Eget porttitor lorem</li>
+                            </ol>
+                        </div>
+                        <p>Add <code>.txt-[color]</code> to an <code>ol</code> or its <code>li</code>'s individually.</p>
+                        <div class="bs-docs-example">
+                            <ol class="txt-turquoise">
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Consectetur adipiscing elit</li>
+                                <li>Integer molestie lorem at massa</li>
+                                <li>Facilisis in pretium nisl aliquet</li>
+                                <li class="txt-peter-river">Nulla volutpat aliquam velit</li>
+                                <li class="txt-alizarin">Faucibus porta lacus fringilla vel</li>
+                                <li class="txt-amethyst">Aenean sit amet erat nunc</li>
+                                <li class="txt-carrot">Eget porttitor lorem</li>
+                            </ol>
+                        </div>
+
+                        <h3>Unstyled</h3>
+                        <div class="bs-docs-example">
+                            <ul class="unstyled">
+                                <li>Lorem ipsum dolor sit amet</li>
+                                <li>Consectetur adipiscing elit</li>
+                                <li>Integer molestie lorem at massa</li>
+                                <li>Facilisis in pretium nisl aliquet</li>
+                                <li>Nulla volutpat aliquam velit
+                                    <ul>
+                                        <li>Phasellus iaculis neque</li>
+                                        <li>Purus sodales ultricies</li>
+                                        <li>Vestibulum laoreet porttitor sem</li>
+                                        <li>Ac tristique libero volutpat at</li>
+                                    </ul>
+                                </li>
+                                <li>Faucibus porta lacus fringilla vel</li>
+                                <li>Aenean sit amet erat nunc</li>
+                                <li>Eget porttitor lorem</li>
+                            </ul>
+                        </div>
+
+                        <h3>Inline</h3>
+                        <div class="bs-docs-example">
+                            <ul class="inline">
+                                <li>Lorem ipsum</li>
+                                <li>Phasellus iaculis</li>
+                                <li>Nulla volutpat</li>
+                            </ul>
+                        </div>
+
+                        <h3>Description</h3>
+                        <div class="bs-docs-example">
+                            <dl>
+                                <dt>Description lists</dt>
+                                <dd>A description list is perfect for defining terms.</dd>
+                                <dt>Euismod</dt>
+                                <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+                                <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+                                <dt>Malesuada porta</dt>
+                                <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+                            </dl>
+                        </div>
+
+                        <h4>Horizontal description</h4>
+                        <div class="bs-docs-example">
+                            <dl class="dl-horizontal">
+                                <dt>Description lists</dt>
+                                <dd>A description list is perfect for defining terms.</dd>
+                                <dt>Euismod</dt>
+                                <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+                                <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+                                <dt>Malesuada porta</dt>
+                                <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+                                <dt>Felis euismod semper eget lacinia</dt>
+                                <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+                            </dl>
+                        </div>
+
+                    </section>
+
+
+                    <!-- Code
+                    ================================================== -->
+                    <section id="code">
+                        <div class="page-header">
+                            <h1>Code</h1>
+                        </div>
+
+                        <h2>Inline</h2>
+                        <div class="bs-docs-example">
+                            For example, <code>&lt;section&gt;</code> should be wrapped as inline.
+                        </div>
+
+                        <h2>Basic block</h2>
+                        <div class="bs-docs-example">
+                            <pre>&lt;p&gt;Sample text here...&lt;/p&gt;</pre>
+                        </div>
+                        
+                        <h2>Color Palette</h2>
+                        <p>Add <code>.txt-[color]</code> to <code>code</code> and <code>pre</code> to change their color.</p>
+                        <div class="bs-docs-example">
+                            For example, <code class="txt-turquoise">&lt;section&gt;</code> should be wrapped as inline.
+                        </div>
+                        <div class="bs-docs-example">
+                            <pre class="txt-turquoise">&lt;p&gt;Sample text here...&lt;/p&gt;</pre>
+                        </div>
+
+                    </section>
+
+                    <!-- Tables
+                    ================================================== -->
+                    <section id="tables">
+                        <div class="page-header">
+                            <h1>Tables</h1>
+                        </div>
+
+                        <h2>Default styles</h2>
+                        <div class="bs-docs-example">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Username</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Larry</td>
+                                        <td>the Bird</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <p>Add <code>.txt-[color]</code> to a <code>.table</code> change the color of text and borders.</p>
+                        <div class="bs-docs-example">
+                            <table class="table txt-turquoise">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Username</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Larry</td>
+                                        <td>the Bird</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p>Add <code>.plt-[color]</code> to a <code>.table</code> to change its background-color.</p>
+                        <div class="bs-docs-example">
+                            <table class="table plt-turquoise">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Username</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Larry</td>
+                                        <td>the Bird</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+          <hr class="bs-docs-separator">
+
+
+          <h2>Optional classes</h2>
+          
+          <h3>Striped table</h3>
+          <div class="bs-docs-example">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+          <p>Add <code>.txt-[color]</code> to a <code>.table-striped</code> to change the color of text and borders, and give uneven rows a backround color.</p>
+          
+          <div class="bs-docs-example">
+            <table class="table table-striped txt-turquoise">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+          <p>Add <code>.plt-[color]</code> to a <code>.table-striped</code> to change the color of text and borders, and give even rows a backround color.</p>
+          
+          <div class="bs-docs-example">
+            <table class="table table-striped plt-turquoise">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+          <p>When adding both <code>.plt-[color]</code> and <code>.txt-[color]</code> to a <code>.table-striped</code>, the striped rows get a lighter variant of the selected color.</p>
+          
+          <div class="bs-docs-example">
+            <table class="table table-striped txt-turquoise plt-turquoise">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+          <h3>Table without row borders</h3>
+          <p>Add <code>.table-no-row-borders</code> to a <code>.table</code> to remove the borders from its rows. This class is not included in Bootstrap by default.</p>
+          <div class="bs-docs-example">
+            <table class="table table-no-row-borders">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+          <p>Combine <code>.table-no-row-borders</code> with <code>.txt-[color]</code> or <code>.plt-[color]</code>.</p>
+          <div class="bs-docs-example">
+            <table class="table table-striped table-no-row-borders txt-turquoise">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="bs-docs-example">
+            <table class="table table-striped table-no-row-borders plt-turquoise">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+          <div class="bs-docs-example">
+            <table class="table table-striped table-no-row-borders txt-turquoise plt-turquoise">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Larry</td>
+                  <td>the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+          <h3>Bordered table</h3>
+          <div class="bs-docs-example">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="2">1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@TwBootstrap</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td colspan="2">Larry the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+          <p>Add <code>.txt-[color]</code> or <code>.plt-[color]</code> to a <code>.table-bordered</code></p>
+          <div class="bs-docs-example">
+            <table class="table table-bordered txt-turquoise">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="2">1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@TwBootstrap</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td colspan="2">Larry the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+              <table class="table table-bordered plt-turquoise">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="2">1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@TwBootstrap</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td colspan="2">Larry the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+          <h3>Hover table</h3>
+          <div class="bs-docs-example">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr style="
+">
+                  <td>3</td>
+                  <td colspan="2">Larry the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+          <p>Add <code>.txt-[color]</code> or <code>.plt-[color]</code> to a <code>.table-hover</code>.</p>
+          <div class="bs-docs-example">
+            <table class="table table-hover txt-turquoise">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr style="">
+                  <td>3</td>
+                  <td colspan="2">Larry the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="table table-hover plt-turquoise">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr style="">
+                  <td>3</td>
+                  <td colspan="2">Larry the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+          <h3>Condensed table</h3>
+          <div class="bs-docs-example">
+            <table class="table table-condensed">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td colspan="2">Larry the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <hr class="bs-docs-separator">
+
+
+          <h2>Optional row classes</h2>
+          <div class="bs-docs-example">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Product</th>
+                  <th>Payment Taken</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="success">
+                  <td>1</td>
+                  <td>TB - Monthly</td>
+                  <td>01/04/2012</td>
+                  <td>Approved</td>
+                </tr>
+                <tr class="error">
+                  <td>2</td>
+                  <td>TB - Monthly</td>
+                  <td>02/04/2012</td>
+                  <td>Declined</td>
+                </tr>
+                <tr class="warning">
+                  <td>3</td>
+                  <td>TB - Monthly</td>
+                  <td>03/04/2012</td>
+                  <td>Pending</td>
+                </tr>
+                <tr class="info">
+                  <td>4</td>
+                  <td>TB - Monthly</td>
+                  <td>04/04/2012</td>
+                  <td>Call in to confirm</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <h3>Rows color palette</h3>
+          <p>Add <code>.txt-[color]</code> to an individual <code>tr</code>, <code>th</code> or <code>td</code>.</p>
+          <div class="bs-docs-example">
+              <table class="table table-no-row-borders">
+                  <thead>
+                      <tr>
+                          <th>#</th>
+                          <th>First Name</th>
+                          <th>Last Name</th>
+                          <th>Username</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr class="txt-turquoise">
+                          <td>1</td>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td class="txt-green-sea">@mdo</td>
+                      </tr>
+                      <tr class="txt-peter-river">
+                          <td>2</td>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td class="txt-belize-hole">@fat</td>
+                      </tr>
+                      <tr class="txt-alizarin">
+                          <td>3</td>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td class="txt-pomegranate">@twitter</td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+          <p>Add <code>.plt-[color]</code> to an individual <code>tr</code>, <code>th</code> or <code>td</code>.</p>
+          <div class="bs-docs-example">
+              <table class="table table-no-row-borders">
+                  <thead>
+                      <tr>
+                          <th>#</th>
+                          <th>First Name</th>
+                          <th>Last Name</th>
+                          <th>Username</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr class="plt-turquoise">
+                          <td>1</td>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td class="plt-green-sea">@mdo</td>
+                      </tr>
+                      <tr class="plt-peter-river">
+                          <td>2</td>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td class="plt-belize-hole">@fat</td>
+                      </tr>
+                      <tr class="plt-alizarin">
+                          <td>3</td>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td class="plt-pomegranate">@twitter</td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+          
+        </section>
+
+        <!-- Forms
+        ================================================== -->
+        <section id="forms">
+          <div class="page-header">
+            <h1>Forms</h1>
+          </div>
+
+          <h2>Default styles</h2>
+          <form class="bs-docs-example">
+              <fieldset>
+                  <legend>Legend</legend>
+                  <label>Label name</label>
+                  <input type="text" placeholder="Type something…">
+                  <span class="help-block">Example block-level help text here.</span>
+                  <label class="checkbox">
+                      <input type="checkbox"> Check me out
+                  </label>
+                  <button type="submit" class="btn">Submit</button>
+              </fieldset>
+          </form>
+          
+          <h2>Optional layouts</h2>
+
+          <h3>Search form</h3>
+          <form class="bs-docs-example form-search">
+            <input type="text" class="input-medium search-query">
+            <button type="submit" class="btn">Search</button>
+          </form>
+
+          <h3>Inline form</h3>
+          <form class="bs-docs-example form-inline">
+            <input type="text" class="input-small" placeholder="Email">
+            <input type="password" class="input-small" placeholder="Password">
+            <label class="checkbox">
+              <input type="checkbox"> Remember me
+            </label>
+            <button type="submit" class="btn">Sign in</button>
+          </form>
+
+          <h3>Horizontal form</h3>
+          <form class="bs-docs-example form-horizontal">
+            <div class="control-group">
+              <label class="control-label" for="inputEmail">Email</label>
+              <div class="controls">
+                <input type="text" id="inputEmail" placeholder="Email">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="inputPassword">Password</label>
+              <div class="controls">
+                <input type="password" id="inputPassword" placeholder="Password">
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="controls">
+                <label class="checkbox">
+                  <input type="checkbox"> Remember me
+                </label>
+                <button type="submit" class="btn">Sign in</button>
+              </div>
+            </div>
+          </form>
+          
+          <hr class="bs-docs-separator">
+
+          <h2>Supported form controls</h2>
+
+          <h3>Inputs</h3>
+          <form class="bs-docs-example form-inline">
+            <input type="text" placeholder="Text input">
+          </form>
+          <p>Add <code>.txt-[color]</code> to an <code>input</code> to change its border and text input color.</p>
+          <div class="bs-docs-example">
+              <form class="form-inline">
+                  <input type="text" class="input-medium txt-turquoise" placeholder="Text input">
+                  <input type="text" class="input-medium txt-peter-river" placeholder="Text input">
+                  <input type="text" class="input-medium txt-alizarin" placeholder="Text input">
+                  <input type="text" class="input-medium txt-wet-asphalt" placeholder="Text input">
+              </form>
+          </div>
+          
+          <p>Add <code>.txt-[color]</code> to an <code>input</code> to change its background color.</p>
+          <div class="bs-docs-example">
+              <form class="form-inline">
+                  <input type="text" class="input-medium plt-turquoise" placeholder="Text input">
+                  <input type="text" class="input-medium plt-peter-river" placeholder="Text input">
+                  <input type="text" class="input-medium plt-alizarin" placeholder="Text input">
+                  <input type="text" class="input-medium plt-wet-asphalt" placeholder="Text input">
+              </form>
+          </div>
+          
+          <p>Or combine them</p>
+          <div class="bs-docs-example">
+              <form class="form-inline">
+                  <input type="text" class="txt plt" placeholder="Text input">
+              </form>
+          </div>
+
+          <h3>Textarea</h3>
+          <form class="bs-docs-example form-inline">
+            <textarea rows="3"></textarea>
+          </form>
+          
+          <p>Add <code>.txt-[color]</code> to a <code>textarea</code> to change its border and text input color.</p>
+          <div class="bs-docs-example">
+            <form class="form-inline">
+              <textarea rows="3" class="txt input-medium txt-turquoise"></textarea>
+              <textarea rows="3" class="txt input-medium txt-peter-river"></textarea>
+              <textarea rows="3" class="txt input-medium txt-alizarin"></textarea>
+              <textarea rows="3" class="txt input-medium txt-wet-asphalt"></textarea>
+            </form>
+          </div>
+          <p>Add <code>.plt-[color]</code> to a <code>textarea</code> to change its background color.</p>
+          <div class="bs-docs-example">
+            <form class="form-inline">
+              <textarea rows="3" class="txt input-medium plt-turquoise"></textarea>
+              <textarea rows="3" class="txt input-medium plt-peter-river"></textarea>
+              <textarea rows="3" class="txt input-medium plt-alizarin"></textarea>
+              <textarea rows="3" class="txt input-medium plt-wet-asphalt"></textarea>
+            </form>
+          </div>
+
+          <h3>Checkboxes and radios</h3>
+
+          <h4>Default (stacked)</h4>
+          <form class="bs-docs-example">
+            <label class="checkbox">
+              <input type="checkbox" value="">
+              Option one is this and that—be sure to include why it's great
+            </label>
+            <br>
+            <label class="radio">
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+              Option one is this and that—be sure to include why it's great
+            </label>
+            <label class="radio">
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+              Option two can be something else and selecting it will deselect option one
+            </label>
+          </form>
+
+          <h4>Inline checkboxes</h4>
+          <form class="bs-docs-example">
+            <label class="checkbox inline">
+              <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+            </label>
+            <label class="checkbox inline">
+              <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+            </label>
+            <label class="checkbox inline">
+              <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+            </label>
+          </form>
+          
+          <h3>Selects</h3>
+          <form class="bs-docs-example">
+            <select>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+            <br>
+            <select multiple="multiple">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </form>
+
+          <hr class="bs-docs-separator">
+
+          <h2>Extending form controls</h2>
+
+          <h3>Prepended and appended inputs</h3>
+
+          <h4>Default options</h4>
+          <form class="bs-docs-example">
+            <div class="input-prepend">
+              <span class="add-on">@</span>
+              <input class="span2" id="prependedInput" type="text" placeholder="Username">
+            </div>
+            <br>
+            <div class="input-append">
+              <input class="span2" id="appendedInput" type="text">
+              <span class="add-on">.00</span>
+            </div>
+          </form>
+          
+          <p>Add <code>.txt-[color]</code> to a <code>.input-prepend</code> or <code>.input-append</code>.</p>
+          <form class="bs-docs-example">
+            <div class="input-prepend txt-turquoise">
+              <span class="add-on">@</span>
+              <input class="span2" id="prependedInput" type="text" placeholder="Username">
+            </div>
+            <div class="input-prepend txt-peter-river">
+              <span class="add-on">@</span>
+              <input class="span2" id="prependedInput" type="text" placeholder="Username">
+            </div>
+            <div class="input-prepend txt-alizarin">
+              <span class="add-on">@</span>
+              <input class="span2" id="prependedInput" type="text" placeholder="Username">
+            </div>
+            <div class="input-prepend txt-wet-asphalt">
+              <span class="add-on">@</span>
+              <input class="span2" id="prependedInput" type="text" placeholder="Username">
+            </div>
+            <br>
+            <div class="input-append txt-turquoise">
+              <input class="span2" id="appendedInput" type="text">
+              <span class="add-on">@</span>
+            </div>
+            <div class="input-append txt-peter-river">
+              <input class="span2" id="appendedInput" type="text">
+              <span class="add-on">@</span>
+            </div>
+            <div class="input-append txt-alizarin">
+              <input class="span2" id="appendedInput" type="text">
+              <span class="add-on">@</span>
+            </div>
+            <div class="input-append txt-wet-asphalt">
+              <input class="span2" id="appendedInput" type="text">
+              <span class="add-on">@</span>
+            </div>
+          </form>
+          
+          <p>Add <code>.plt-[color]</code> to a <code>.input-prepend</code> or <code>.input-append</code>.</p>
+          <form class="bs-docs-example">
+            <div class="input-prepend plt-turquoise">
+              <span class="add-on">@</span>
+              <input class="span2" id="prependedInput" type="text" placeholder="Username">
+            </div>
+            <div class="input-prepend plt-peter-river">
+              <span class="add-on">@</span>
+              <input class="span2" id="prependedInput" type="text" placeholder="Username">
+            </div>
+            <div class="input-prepend plt-alizarin">
+              <span class="add-on">@</span>
+              <input class="span2" id="prependedInput" type="text" placeholder="Username">
+            </div>
+            <div class="input-prepend plt-wet-asphalt">
+              <span class="add-on">@</span>
+              <input class="span2" id="prependedInput" type="text" placeholder="Username">
+            </div>
+            <br>
+            <div class="input-append plt-turquoise">
+              <input class="span2" id="appendedInput" type="text">
+              <span class="add-on">@</span>
+            </div>
+            <div class="input-append plt-peter-river">
+              <input class="span2" id="appendedInput" type="text">
+              <span class="add-on">@</span>
+            </div>
+            <div class="input-append plt-alizarin">
+              <input class="span2" id="appendedInput" type="text">
+              <span class="add-on">@</span>
+            </div>
+            <div class="input-append plt-wet-asphalt">
+              <input class="span2" id="appendedInput" type="text">
+              <span class="add-on">@</span>
+            </div>
+          </form>
+          
+          <p>Add <code>.txt-[color]</code> or <code>.plt-[color]</code> to the <code>.addon</code> or <code>input</code> to control them individually.</p>
+          <form class="bs-docs-example">
+            <div class="input-prepend">
+              <span class="add-on plt-green-sea">@</span>
+              <input class="span2 plt-turquoise" id="prependedInput" type="text" placeholder="Username">
+            </div>
+            <div class="input-prepend">
+              <span class="add-on plt-belize-hole">@</span>
+              <input class="span2 plt-peter-river" id="prependedInput" type="text" placeholder="Username">
+            </div>
+            <div class="input-prepend">
+              <span class="add-on plt-pomegranate">@</span>
+              <input class="span2 plt-alizarin" id="prependedInput" type="text" placeholder="Username">
+            </div>
+            <div class="input-prepend">
+              <span class="add-on plt-midnight-blue">@</span>
+              <input class="span2 plt-wet-asphalt" id="prependedInput" type="text" placeholder="Username">
+            </div>
+          </form>
+
+          <h4>Combined</h4>
+          <form class="bs-docs-example form-inline">
+            <div class="input-prepend input-append">
+              <span class="add-on">$</span>
+              <input class="span2" id="appendedPrependedInput" type="text">
+              <span class="add-on">.00</span>
+            </div>
+          </form>
+
+          <h4>Buttons instead of text</h4>
+          <form class="bs-docs-example">
+            <div class="input-append">
+              <input class="span2" id="appendedInputButton" type="text">
+              <a href="#" class="btn btn-danger" data-toggle="popover" title="" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title">Click to toggle popover</a>
+            </div>
+          </form>
+
+          <form class="bs-docs-example">
+            <div class="input-append">
+              <input class="span2" id="appendedInputButtons" type="text">
+              <button class="btn" type="button">Search</button>
+              <button class="btn" type="button">Options</button>
+            </div>
+          </form>
+
+          <h4>Button dropdowns</h4>
+          <form class="bs-docs-example">
+            <div class="input-append">
+              <input class="span2" id="appendedDropdownButton" type="text">
+              <div class="btn-group">
+                <button class="btn dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+            </div><!-- /input-append -->
+          </form>
+
+          <form class="bs-docs-example">
+            <div class="input-prepend">
+              <div class="btn-group">
+                <button class="btn dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <input class="span2" id="prependedDropdownButton" type="text">
+            </div><!-- /input-prepend -->
+          </form>
+
+          <form class="bs-docs-example">
+            <div class="input-prepend input-append">
+              <div class="btn-group">
+                <button class="btn dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <input class="span2" id="appendedPrependedDropdownButton" type="text">
+              <div class="btn-group">
+                <button class="btn dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+            </div><!-- /input-prepend input-append -->
+          </form>
+
+          <h4>Segmented dropdown groups</h4>
+          <form class="bs-docs-example">
+            <div class="input-prepend">
+              <div class="btn-group">
+                <button class="btn" tabindex="-1">Action</button>
+                <button class="btn dropdown-toggle" data-toggle="dropdown" tabindex="-1">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div>
+              <input type="text">
+            </div>
+            <div class="input-append">
+              <input type="text">
+              <div class="btn-group">
+                <button class="btn" tabindex="-1">Action</button>
+                <button class="btn dropdown-toggle" data-toggle="dropdown" tabindex="-1">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div>
+            </div>
+          </form>
+
+          <h4>Search form</h4>
+          <form class="bs-docs-example form-search">
+            <div class="input-append">
+              <input type="text" class="span2 search-query">
+              <button type="submit" class="btn">Search</button>
+            </div>
+            <div class="input-prepend">
+              <button type="submit" class="btn">Search</button>
+              <input type="text" class="span2 search-query">
+            </div>
+          </form>
+
+          <h3>Control sizing</h3>
+          
+          <h4>Block level inputs</h4>
+          <form class="bs-docs-example" style="padding-bottom: 15px;">
+            <div class="controls">
+              <input class="input-block-level" type="text" placeholder=".input-block-level">
+            </div>
+          </form>
+
+          <h4>Relative sizing</h4>
+          <form class="bs-docs-example" style="padding-bottom: 15px;">
+            <div class="controls docs-input-sizes">
+              <input class="input-mini" type="text" placeholder=".input-mini">
+              <input class="input-small" type="text" placeholder=".input-small">
+              <input class="input-medium" type="text" placeholder=".input-medium">
+              <input class="input-large" type="text" placeholder=".input-large">
+              <input class="input-xlarge" type="text" placeholder=".input-xlarge">
+              <input class="input-xxlarge" type="text" placeholder=".input-xxlarge">
+            </div>
+          </form>
+
+          <h4>Grid sizing</h4>
+          
+          <form class="bs-docs-example" style="padding-bottom: 15px;">
+            <div class="controls">
+              <input class="span5" type="text" placeholder=".span5">
+            </div>
+            <div class="controls controls-row">
+              <input class="span4" type="text" placeholder=".span4">
+              <input class="span1" type="text" placeholder=".span1">
+            </div>
+            <div class="controls controls-row">
+              <input class="span3" type="text" placeholder=".span3">
+              <input class="span2" type="text" placeholder=".span2">
+            </div>
+            <div class="controls controls-row">
+              <input class="span2" type="text" placeholder=".span2">
+              <input class="span3" type="text" placeholder=".span3">
+            </div>
+            <div class="controls controls-row">
+              <input class="span1" type="text" placeholder=".span1">
+              <input class="span4" type="text" placeholder=".span4">
+            </div>
+          </form>
+
+          <h3>Uneditable inputs</h3>
+          <form class="bs-docs-example">
+            <span class="input-xlarge uneditable-input">Some value here</span>
+          </form>
+          <p>Add <code>.txt-[color]</code> to <code>.uneditable-input</code> to control its color.</p>
+          <form class="bs-docs-example">
+            <span class="input-medium uneditable-input txt-turquoise">Some value here</span>
+            <span class="input-medium uneditable-input txt-peter-river">Some value here</span>
+            <span class="input-medium uneditable-input txt-alizarin">Some value here</span>
+            <span class="input-medium uneditable-input txt-wet-asphalt">Some value here</span>
+          </form>
+          <p>Add <code>.plt-[color]</code> to <code>.uneditable-input</code> to control its background color.</p>
+          <form class="bs-docs-example">
+            <span class="input-medium uneditable-input plt-turquoise">Some value here</span>
+            <span class="input-medium uneditable-input plt-peter-river">Some value here</span>
+            <span class="input-medium uneditable-input plt-alizarin">Some value here</span>
+            <span class="input-medium uneditable-input plt-wet-asphalt">Some value here</span>
+          </form>
+
+          <h3>Form actions</h3>
+          <form class="bs-docs-example">
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn">Cancel</button>
+            </div>
+          </form>
+          <p>Add <code>.plt-[color]</code> to <code>.form-actions</code> to control its background color.</p>
+          <form class="bs-docs-example">
+              <div class="form-actions plt-turquoise">
+              <button type="submit" class="btn plt-wet-asphalt">Save changes</button>
+              <button type="button" class="btn plt-green-sea">Cancel</button>
+            </div>
+            <div class="form-actions plt-peter-river">
+              <button type="submit" class="btn plt-wet-asphalt">Save changes</button>
+              <button type="button" class="btn plt-belize-hole">Cancel</button>
+            </div>
+            <div class="form-actions plt-alizarin">
+              <button type="submit" class="btn plt-wet-asphalt">Save changes</button>
+              <button type="button" class="btn plt-pomegranate">Cancel</button>
+            </div>
+            <div class="form-actions plt-wet-asphalt">
+              <button type="submit" class="btn plt-turquoise">Save changes</button>
+              <button type="button" class="btn plt-midnight-blue">Cancel</button>
+            </div>
+          </form>
+          
+          <h3>Help text</h3>
+          
+          <h4>Inline help</h4>
+          <form class="bs-docs-example form-inline">
+            <input type="text"> <span class="help-inline">Inline help text</span>
+          </form>
+          
+          <p>Add <code>.txt-[color]</code> to <code>.help-inline</code> to control its color.</p>
+          <form class="bs-docs-example form-inline">
+            <input type="text"> <span class="help-inline txt-turquoise">Inline help text</span>
+          </form>
+
+          <h4>Block help</h4>
+          <form class="bs-docs-example form-inline">
+            <input type="text">
+            <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
+          </form>
+          
+          <p>Add <code>.txt-[color]</code> to <code>.help-block</code> to control its color.</p>
+          <form class="bs-docs-example form-inline">
+            <input type="text">
+            <span class="help-block txt-turquoise">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
+          </form>
+
+          <hr class="bs-docs-separator">
+
+          <h2>Form control states</h2>
+
+          <h3>Input focus</h3>
+          <form class="bs-docs-example form-inline">
+            <input class="input-xlarge focused" id="focusedInput" type="text" value="This is focused...">
+          </form>
+
+          <h3>Invalid inputs</h3>
+          <form class="bs-docs-example form-inline">
+            <input class="span3" type="email" placeholder="test@example.com" required="">
+          </form>
+
+          <h3>Disabled inputs</h3>
+          <form class="bs-docs-example form-inline">
+            <input class="input-xlarge" id="disabledInput" type="text" placeholder="Disabled input here…" disabled="">
+          </form>
+
+          <h3>Validation states</h3>
+
+          <form class="bs-docs-example form-horizontal">
+            <div class="control-group warning">
+              <label class="control-label" for="inputWarning">Input with warning</label>
+              <div class="controls">
+                <input type="text" id="inputWarning">
+                <span class="help-inline">Something may have gone wrong</span>
+              </div>
+            </div>
+            <div class="control-group error">
+              <label class="control-label" for="inputError">Input with error</label>
+              <div class="controls">
+                <input type="text" id="inputError">
+                <span class="help-inline">Please correct the error</span>
+              </div>
+            </div>
+            <div class="control-group info">
+              <label class="control-label" for="inputInfo">Input with info</label>
+              <div class="controls">
+                <input type="text" id="inputInfo">
+                <span class="help-inline">Username is taken</span>
+              </div>
+            </div>
+            <div class="control-group success">
+              <label class="control-label" for="inputSuccess">Input with success</label>
+              <div class="controls">
+                <input type="text" id="inputSuccess">
+                <span class="help-inline">Woohoo!</span>
+              </div>
+            </div>
+          </form>
+          
+          <h3>Form control state colors</h3>
+            <p>Add <code>.txt-[color]</code> or <code>.plt-[color]</code> to a <code>.control-group</code> to change the color of its elements.</p>
+         <form class="bs-docs-example form-horizontal">
+            <div class="control-group txt-turquoise">
+              <label class="control-label" for="inputWarning">Input with warning</label>
+              <div class="controls">
+                <input type="text" id="inputWarning">
+                <span class="help-inline">Something may have gone wrong</span>
+              </div>
+            </div>
+            <div class="control-group txt-peter-river">
+              <label class="control-label" for="inputWarning">Input with warning</label>
+              <div class="controls">
+                <input type="text" id="inputWarning">
+                <span class="help-inline">Something may have gone wrong</span>
+              </div>
+            </div>
+            <div class="control-group txt-alizarin">
+              <label class="control-label" for="inputWarning">Input with warning</label>
+              <div class="controls">
+                <input type="text" id="inputWarning">
+                <span class="help-inline">Something may have gone wrong</span>
+              </div>
+            </div>
+            <div class="control-group txt-wet-asphalt">
+              <label class="control-label" for="inputWarning">Input with warning</label>
+              <div class="controls">
+                <input type="text" id="inputWarning">
+                <span class="help-inline">Something may have gone wrong</span>
+              </div>
+            </div>
+          </form>
+          
+          <form class="bs-docs-example form-horizontal">
+            <div class="control-group plt-turquoise">
+              <label class="control-label" for="inputWarning">Input with warning</label>
+              <div class="controls">
+                <input type="text" id="inputWarning">
+                <span class="help-inline">Something may have gone wrong</span>
+              </div>
+            </div>
+            <div class="control-group plt-peter-river">
+              <label class="control-label" for="inputWarning">Input with warning</label>
+              <div class="controls">
+                <input type="text" id="inputWarning">
+                <span class="help-inline">Something may have gone wrong</span>
+              </div>
+            </div>
+            <div class="control-group plt-alizarin">
+              <label class="control-label" for="inputWarning">Input with warning</label>
+              <div class="controls">
+                <input type="text" id="inputWarning">
+                <span class="help-inline">Something may have gone wrong</span>
+              </div>
+            </div>
+            <div class="control-group plt-wet-asphalt">
+              <label class="control-label" for="inputWarning">Input with warning</label>
+              <div class="controls">
+                <input type="text" id="inputWarning">
+                <span class="help-inline">Something may have gone wrong</span>
+              </div>
+            </div>
+          </form>
+
+        </section>
+
+        <!-- Buttons
+        ================================================== -->
+        <section id="buttons">
+          <div class="page-header">
+            <h1>Buttons</h1>
+          </div>
+
+          <h2>Default buttons</h2>
+          <table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>Button</th>
+                <th>class=""</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><button type="button" class="btn btn">Default</button></td>
+                <td><code>btn</code></td>
+                <td>Standard gray button with gradient</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-primary">Primary</button></td>
+                <td><code>btn btn-primary</code></td>
+                <td>Provides extra visual weight and identifies the primary action in a set of buttons</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-info">Info</button></td>
+                <td><code>btn btn-info</code></td>
+                <td>Used as an alternative to the default styles</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-success">Success</button></td>
+                <td><code>btn btn-success</code></td>
+                <td>Indicates a successful or positive action</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-warning">Warning</button></td>
+                <td><code>btn btn-warning</code></td>
+                <td>Indicates caution should be taken with this action</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-danger">Danger</button></td>
+                <td><code>btn btn-danger</code></td>
+                <td>Indicates a dangerous or potentially negative action</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-inverse">Inverse</button></td>
+                <td><code>btn btn-inverse</code></td>
+                <td>Alternate dark gray button, not tied to a semantic action or use</td>
+              </tr>
+              <tr>
+                <td><button type="button" class="btn btn-link">Link</button></td>
+                <td><code>btn btn-link</code></td>
+                <td>Deemphasize a button by making it look like a link while maintaining button behavior</td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <h2>Color Palette</h2>
+          <div class="bs-docs-example">
+            <p>
+              <button type="button" class="btn btn-large plt-turquoise">click me</button>
+              <button type="button" class="btn btn-large plt-emerald">click me</button>
+              <button type="button" class="btn btn-large plt-peter-river">click me</button>
+              <button type="button" class="btn btn-large plt-amethyst">click me</button>
+              <button type="button" class="btn btn-large plt-wet-asphalt">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-large plt-green-sea">click me</button>
+              <button type="button" class="btn btn-large plt-nephritis">click me</button>
+              <button type="button" class="btn btn-large plt-belize-hole">click me</button>
+              <button type="button" class="btn btn-large plt-wisteria">click me</button>
+              <button type="button" class="btn btn-large plt-midnight-blue">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-large plt-sun-flower">click me</button>
+              <button type="button" class="btn btn-large plt-carrot">click me</button>
+              <button type="button" class="btn btn-large plt-alizarin">click me</button>
+              <button type="button" class="btn btn-large plt-clouds">click me</button>
+              <button type="button" class="btn btn-large plt-concrete">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-large plt-orange">click me</button>
+              <button type="button" class="btn btn-large plt-pumpkin">click me</button>
+              <button type="button" class="btn btn-large plt-pomegranate">click me</button>
+              <button type="button" class="btn btn-large plt-silver">click me</button>
+              <button type="button" class="btn btn-large plt-asbestos">click me</button>
+            </p>
+          </div>
+          
+          <h2>Rounded Buttons</h2>
+          <div class="bs-docs-example">
+            <p>
+              <button type="button" class="btn btn-large round-mini plt-turquoise">click me</button>
+              <button type="button" class="btn btn-large round-mini plt-emerald">click me</button>
+              <button type="button" class="btn btn-large round-mini plt-peter-river">click me</button>
+              <button type="button" class="btn btn-large round-mini plt-amethyst">click me</button>
+              <button type="button" class="btn btn-large round-mini plt-wet-asphalt">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-large round-mini plt-green-sea">click me</button>
+              <button type="button" class="btn btn-large round-mini plt-nephritis">click me</button>
+              <button type="button" class="btn btn-large round-mini plt-belize-hole">click me</button>
+              <button type="button" class="btn btn-large round-mini plt-wisteria">click me</button>
+              <button type="button" class="btn btn-large round-mini plt-midnight-blue">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-large round-mini plt-sun-flower">click me</button>
+              <button type="button" class="btn btn-large round-mini plt-carrot">click me</button>
+              <button type="button" class="btn btn-large round-mini plt-alizarin">click me</button>
+              <button type="button" class="btn btn-large round-mini plt-clouds">click me</button>
+              <button type="button" class="btn btn-large round-mini plt-concrete">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-large round-mini plt-orange">click me</button>
+              <button type="button" class="btn btn-large round-mini plt-pumpkin">click me</button>
+              <button type="button" class="btn btn-large round-mini plt-pomegranate">click me</button>
+              <button type="button" class="btn btn-large round-mini plt-silver">click me</button>
+              <button type="button" class="btn btn-large round-mini plt-asbestos">click me</button>
+            </p>
+          </div>
+          
+          <h2>3D Buttons</h2>
+          <div class="bs-docs-example">
+            <p>
+              <button type="button" class="btn btn-large btn-3d plt-turquoise">click me</button>
+              <button type="button" class="btn btn-large btn-3d plt-emerald">click me</button>
+              <button type="button" class="btn btn-large btn-3d plt-peter-river">click me</button>
+              <button type="button" class="btn btn-large btn-3d plt-amethyst">click me</button>
+              <button type="button" class="btn btn-large btn-3d plt-wet-asphalt">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-large btn-3d plt-green-sea">click me</button>
+              <button type="button" class="btn btn-large btn-3d plt-nephritis">click me</button>
+              <button type="button" class="btn btn-large btn-3d plt-belize-hole">click me</button>
+              <button type="button" class="btn btn-large btn-3d plt-wisteria">click me</button>
+              <button type="button" class="btn btn-large btn-3d plt-midnight-blue">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-large btn-3d plt-sun-flower">click me</button>
+              <button type="button" class="btn btn-large btn-3d plt-carrot">click me</button>
+              <button type="button" class="btn btn-large btn-3d plt-alizarin">click me</button>
+              <button type="button" class="btn btn-large btn-3d plt-clouds">click me</button>
+              <button type="button" class="btn btn-large btn-3d plt-concrete">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-large btn-3d plt-orange">click me</button>
+              <button type="button" class="btn btn-large btn-3d plt-pumpkin">click me</button>
+              <button type="button" class="btn btn-large btn-3d plt-pomegranate">click me</button>
+              <button type="button" class="btn btn-large btn-3d plt-silver">click me</button>
+              <button type="button" class="btn btn-large btn-3d plt-asbestos">click me</button>
+            </p>
+          </div>
+          <div class="bs-docs-example">
+            <p>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-turquoise">click me</button>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-emerald">click me</button>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-peter-river">click me</button>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-amethyst">click me</button>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-wet-asphalt">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-green-sea">click me</button>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-nephritis">click me</button>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-belize-hole">click me</button>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-wisteria">click me</button>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-midnight-blue">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-sun-flower">click me</button>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-carrot">click me</button>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-alizarin">click me</button>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-clouds">click me</button>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-concrete">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-orange">click me</button>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-pumpkin">click me</button>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-pomegranate">click me</button>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-silver">click me</button>
+              <button type="button" class="btn btn-large btn-3d round-mini plt-asbestos">click me</button>
+            </p>
+          </div>
+          
+          <div class="bs-docs-example">
+            <p>
+              <button type="button" class="btn btn-3d round-mini plt-turquoise">click me</button>
+              <button type="button" class="btn btn-3d round-mini plt-emerald">click me</button>
+              <button type="button" class="btn btn-3d round-mini plt-peter-river">click me</button>
+              <button type="button" class="btn btn-3d round-mini plt-amethyst">click me</button>
+              <button type="button" class="btn btn-3d round-mini plt-wet-asphalt">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-3d round-mini plt-green-sea">click me</button>
+              <button type="button" class="btn btn-3d round-mini plt-nephritis">click me</button>
+              <button type="button" class="btn btn-3d round-mini plt-belize-hole">click me</button>
+              <button type="button" class="btn btn-3d round-mini plt-wisteria">click me</button>
+              <button type="button" class="btn btn-3d round-mini plt-midnight-blue">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-3d round-mini plt-sun-flower">click me</button>
+              <button type="button" class="btn btn-3d round-mini plt-carrot">click me</button>
+              <button type="button" class="btn btn-3d round-mini plt-alizarin">click me</button>
+              <button type="button" class="btn btn-3d round-mini plt-clouds">click me</button>
+              <button type="button" class="btn btn-3d round-mini plt-concrete">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-3d round-mini plt-orange">click me</button>
+              <button type="button" class="btn btn-3d round-mini plt-pumpkin">click me</button>
+              <button type="button" class="btn btn-3d round-mini plt-pomegranate">click me</button>
+              <button type="button" class="btn btn-3d round-mini plt-silver">click me</button>
+              <button type="button" class="btn btn-3d round-mini plt-asbestos">click me</button>
+            </p>
+          </div>
+          
+          <div class="bs-docs-example">
+            <p>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-turquoise">click me</button>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-emerald">click me</button>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-peter-river">click me</button>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-amethyst">click me</button>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-wet-asphalt">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-green-sea">click me</button>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-nephritis">click me</button>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-belize-hole">click me</button>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-wisteria">click me</button>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-midnight-blue">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-sun-flower">click me</button>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-carrot">click me</button>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-alizarin">click me</button>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-clouds">click me</button>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-concrete">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-orange">click me</button>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-pumpkin">click me</button>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-pomegranate">click me</button>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-silver">click me</button>
+              <button type="button" class="btn btn-small btn-3d round-mini plt-asbestos">click me</button>
+            </p>
+          </div>
+          
+          <div class="bs-docs-example">
+            <p>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-turquoise">click me</button>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-emerald">click me</button>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-peter-river">click me</button>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-amethyst">click me</button>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-wet-asphalt">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-green-sea">click me</button>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-nephritis">click me</button>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-belize-hole">click me</button>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-wisteria">click me</button>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-midnight-blue">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-sun-flower">click me</button>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-carrot">click me</button>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-alizarin">click me</button>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-clouds">click me</button>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-concrete">click me</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-orange">click me</button>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-pumpkin">click me</button>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-pomegranate">click me</button>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-silver">click me</button>
+              <button type="button" class="btn btn-mini btn-3d round-mini plt-asbestos">click me</button>
+            </p>
+          </div>
+          
+          
+
+          <h2>Button sizes</h2>
+          <div class="bs-docs-example">
+            <p>
+              <button type="button" class="btn btn-large btn-primary">Large button</button>
+              <button type="button" class="btn btn-large">Large button</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-primary">Default button</button>
+              <button type="button" class="btn">Default button</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-small btn-primary">Small button</button>
+              <button type="button" class="btn btn-small">Small button</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-mini btn-primary">Mini button</button>
+              <button type="button" class="btn btn-mini">Mini button</button>
+            </p>
+          </div>
+          
+          <h3>Block level buttons</h3>
+          <div class="bs-docs-example">
+            <div class="well" style="max-width: 400px; margin: 0 auto 10px;">
+              <button type="button" class="btn btn-large btn-block btn-primary">Block level button</button>
+              <button type="button" class="btn btn-large btn-block">Block level button</button>
+            </div>
+          </div>
+
+          <h2>Disabled state</h2>
+
+          <p class="bs-docs-example">
+            <a href="#" class="btn btn-large btn-primary disabled">Primary link</a>
+            <a href="#" class="btn btn-large disabled">Link</a>
+          </p>
+
+        </section>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <p>Designed and built with all the love in the world by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
+        <p>Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+        <p><a href="http://glyphicons.com">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+        <ul class="footer-links">
+          <li><a href="http://blog.getbootstrap.com">Blog</a></li>
+          <li class="muted">·</li>
+          <li><a href="https://github.com/twitter/bootstrap/issues?state=open">Issues</a></li>
+          <li class="muted">·</li>
+          <li><a href="https://github.com/twitter/bootstrap/blob/master/CHANGELOG.md">Changelog</a></li>
+        </ul>
+      </div>
+    </footer>

@@ -6,7 +6,7 @@ class App_Plugins_Welcome  extends Zend_Controller_Plugin_Abstract{
         
         //Zend_Debug::dump($request);
             
-            echo 'Plugin';
+            //echo 'Plugin';
     }
 
 	static function hello(){
