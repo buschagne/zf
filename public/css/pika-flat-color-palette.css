@@ -1,0 +1,81 @@
+.pika-single.txt .pika-label {
+    background-color: #E74C3C; /* alizarin */
+}
+
+.pika-single.plt .pika-label {
+    background-color: #c44133; /* alizarin dark */
+}
+
+.pika-single.txt .pika-title {
+    background-color: #E74C3C; /* alizarin */
+}
+
+.pika-single.plt .pika-title {
+    background-color: #c44133; /* alizarin dark */
+}
+
+.pika-single.txt .pika-prev,
+.pika-single.txt .pika-next {
+    background-color: #E74C3C; /* alizarin */
+}
+
+.pika-single.plt .pika-prev,
+.pika-single.plt .pika-next {
+    background-color: #c44133; /* alizarin dark */
+}
+
+.pika-single.plt .pika-table {
+    background-color: #E74C3C; /* alizarin */
+}
+
+.pika-single.plt .pika-table th abbr {
+    color: #fff;
+}
+
+.pika-single.plt .pika-button {
+    background: #ec7063; /* alizarin light */
+    border: 1px solid #E74C3C; /* alizarin */
+}
+
+.pika-single.txt .is-today .pika-button {
+    color: #E74C3C; /* alizarin */
+}
+
+.pika-single.txt .is-today.is-selected .pika-button {
+    color: #fff;
+}
+
+.pika-single.plt .is-today .pika-button {
+    color: #c44133; /* alizarin dark */
+}
+
+.pika-single.plt .is-today.is-selected .pika-button {
+    color: #fff;
+}
+
+.pika-single.txt .is-selected .pika-button {
+    background: #E74C3C; /* alizarin */
+}
+
+.pika-single.plt .is-selected .pika-button {
+    background: #c44133; /* alizarin dark */
+    border: 0;
+}
+
+.pika-single.txt .pika-button:hover {
+    background: #ec7063; /* alizarin light */
+    border: 0;
+}
+
+.pika-single.txt .is-today .pika-button:hover {
+    color: #fff;
+}
+
+.pika-single.plt .is-today .pika-button:hover {
+    color: #fff;
+}
+
+.pika-single.plt .pika-button:hover {
+    background: #c44133; /* alizarin dark */
+    border: 0;
+}

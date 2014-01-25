@@ -1,0 +1,1521 @@
+/* 
+    Document   : color-palette
+    Created on : 12-jul-2013, 11:12:05
+    Author     : Freek
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.plt { 
+    background-color: #E74C3C; /* alizarin */
+}
+
+.txt { 
+    color: #E74C3C; /* alizarin */
+}
+
+/* =================================================
+===   General
+================================================= */
+
+/* ===================== txt ==================== */
+
+a.txt {
+    color: #E74C3C; /* alizarin */
+}
+
+a.txt:hover,
+a.txt:focus {
+    color: #ec7063; /* alizarin light */
+}
+
+.img-polaroid.txt {
+    border-color: #E74C3C; /* alizarin */
+}
+
+/* =================================================
+===   Typography
+================================================= */
+
+/* ===================== txt ==================== */
+
+h1.txt small,
+h2.txt small,
+h3.txt small,
+h4.txt small,
+h5.txt small,
+h6.txt small {
+    color: #ec7063; /* alizarin light */
+}
+
+.page-header.txt {
+    border-bottom-color: #ec7063; /* alizarin light */
+}
+
+.page-header.txt h1,
+.page-header.txt h2,
+.page-header.txt h3,
+.page-header.txt h4,
+.page-header.txt h5,
+.page-header.txt h6 {
+    color: #E74C3C; /* alizarin */
+}
+
+.page-header.txt h1 small,
+.page-header.txt h2 small,
+.page-header.txt h3 small,
+.page-header.txt h4 small,
+.page-header.txt h5 small,
+.page-header.txt h6 small {
+    color: #ec7063; /* alizarin light */
+}
+
+hr.txt {
+    border-bottom-color: #E74C3C; /* alizarin */
+}
+
+abbr.txt[title], 
+abbr.txt[data-original-title] {
+    border-bottom-color: #E74C3C; /* alizarin */
+}
+
+blockquote.txt {
+    border-left-color: #E74C3C; /* alizarin */
+}
+
+blockquote.txt.pull-right {
+    border-right-color: #E74C3C; /* alizarin */
+}
+
+blockquote.txt small {
+  color: #E74C3C; /* alizarin */
+}
+
+address.txt a {
+  color: #ec7063; /* alizarin light */
+}
+
+address.txt a:hover,
+address.txt a:focus {
+  color: #E74C3C; /* alizarin */
+}
+
+/* =================================================
+===   Forms
+================================================= */
+
+/* ===================== plt ==================== */
+
+textarea.plt,
+input[type="text"].plt,
+input[type="password"].plt,
+input[type="datetime"].plt,
+input[type="datetime-local"].plt,
+input[type="date"].plt,
+input[type="month"].plt,
+input[type="time"].plt,
+input[type="week"].plt,
+input[type="number"].plt,
+input[type="email"].plt,
+input[type="url"].plt,
+input[type="search"].plt,
+input[type="tel"].plt,
+input[type="color"].plt,
+.uneditable-input.plt {
+  background-color: #E74C3C; /* alizarin */
+  border-color: #E74C3C; /* alizarin */
+  color: #fff;
+}
+
+textarea.plt:focus,
+input[type="text"].plt:focus,
+input[type="password"].plt:focus,
+input[type="datetime"].plt:focus,
+input[type="datetime-local"].plt:focus,
+input[type="date"].plt:focus,
+input[type="month"].plt:focus,
+input[type="time"].plt:focus,
+input[type="week"].plt:focus,
+input[type="number"].plt:focus,
+input[type="email"].plt:focus,
+input[type="url"].plt:focus,
+input[type="search"].plt:focus,
+input[type="tel"].plt:focus,
+input[type="color"].plt:focus,
+.uneditable-input.plt:focus {
+  border-color: #E74C3C;
+}
+
+select.plt {
+  background-color: #fff;
+  border-color: #E74C3C; /* alizarin */
+  color: #555555;
+}
+
+input.plt:-moz-placeholder,
+textarea.plt:-moz-placeholder {
+  color: #F7F7F7;
+}
+
+input.plt:-ms-input-placeholder,
+textarea.plt:-ms-input-placeholder {
+  color: #F7F7F7;
+}
+
+input.plt::-webkit-input-placeholder,
+textarea.plt::-webkit-input-placeholder {
+  color: #F7F7F7;
+}
+
+.control-group.plt {
+    background-color: inherit;
+}
+
+.control-group.plt .control-label,
+.control-group.plt .help-block,
+.control-group.plt .help-inline {
+  color: #E74C3C; /* alizarin */
+}
+
+.control-group.plt .checkbox,
+.control-group.plt .radio,
+.control-group.plt input,
+.control-group.plt textarea {
+  color: #E74C3C; /* alizarin */
+}
+
+.control-group.plt input,
+.control-group.plt textarea {
+    color: #fff;
+  background-color: #E74C3C; /* alizarin */
+  border-color: #E74C3C; /* alizarin */
+}
+
+.control-group.plt input,
+.control-group.plt select,
+.control-group.plt textarea {
+    border-color: #E74C3C; /* alizarin */
+}
+
+.control-group.plt input:focus,
+.control-group.plt select:focus,
+.control-group.plt textarea:focus {
+  border-color: #E74C3C; /* alizarin */
+}
+
+.control-group.plt .input-prepend .add-on,
+.control-group.plt .input-append .add-on {
+  color: #fff;
+  background-color: #E74C3C; /* alizarin */
+}
+
+.control-group.plt input:-moz-placeholder,
+.control-group.plt textarea:-moz-placeholder {
+  color: #F7F7F7;
+}
+
+.control-group.plt input:-ms-input-placeholder,
+.control-group.plt textarea:-ms-input-placeholder {
+  color: #F7F7F7;
+}
+
+.control-group.plt input::-webkit-input-placeholder,
+.control-group.plt textarea::-webkit-input-placeholder {
+  color: #F7F7F7;
+}
+
+.input-append.plt input,
+.input-prepend.plt input,
+.input-append.plt select,
+.input-prepend.plt select,
+.input-append.plt .uneditable-input,
+.input-prepend.plt .uneditable-input {
+    color: #fff;
+    border-color: #E74C3C; /* alizarin */
+    background-color: #E74C3C; /* alizarin */
+}
+
+.input-append.plt input:-moz-placeholder,
+.input-prepend.plt input:-moz-placeholder {
+  color: #F7F7F7;
+}
+
+.input-append.plt input:-ms-input-placeholder,
+.input-prepend.plt input:-ms-input-placeholder {
+  color: #F7F7F7;
+}
+
+.input-append.plt input::-webkit-input-placeholder,
+.input-prepend.plt input::-webkit-input-placeholder {
+  color: #F7F7F7;
+}
+
+.input-append.plt .btn,
+.input-prepend.plt .btn {
+  background-color: #E74C3C; /* alizarin */
+  *background-color: #E74C3C; /* alizarin */
+}
+
+.input-append.plt .btn:hover,
+.input-prepend.plt .btn:hover,
+.input-append.plt .btn:focus,
+.input-prepend.plt .btn:focus,
+.input-append.plt .btn:active,
+.input-prepend.plt .btn:active,
+.input-append.plt .btn.active,
+.input-prepend.plt .btn.active,
+.input-append.plt .btn.disabled,
+.input-prepend.plt .btn.disabled,
+.input-append.plt .btn[disabled],
+.input-prepend.plt .btn[disabled] {
+  background-color: #ec7063; /* alizarin light */
+}
+
+.input-append.plt .btn:active,
+.input-prepend.plt .btn:active,
+.input-append.plt .btn.active,
+.input-prepend.plt .btn.active {
+  background-color: #c44133; /* alizarin dark */
+}
+
+.input-append.plt .btn:focus,
+.input-prepend.plt .btn:focus {
+  outline: 0;
+  background-color: #ec7063; /* alizarin light */
+}
+
+/* Optional */
+.input-append.plt.include-popover .popover,
+.input-prepend.plt.include-popover .popover {
+    color: #2c3e50;
+}
+.input-append.plt.include-popover .popover .popover-title,
+.input-prepend.plt.include-popover .popover .popover-title {
+    background-color: #c44133;
+}
+
+.input-append.plt.include-popover .popover .popover-content,
+.input-prepend.plt.include-popover .popover .popover-content {
+    background-color: #E74C3C;
+    color: #fff;
+}
+
+.input-append.plt.include-popover .popover.top .arrow, 
+.input-prepend.plt.include-popover .popover.top .arrow {
+  border-top-color: #E74C3C; /* alizarin */
+}
+
+.input-append.plt.include-popover .popover.top .arrow:after,
+.input-prepend.plt.include-popover .popover.top .arrow:after {
+    border-top-color: #E74C3C; /* alizarin */
+}
+
+.input-append.plt.include-popover .popover.right .arrow,
+.input-prepend.plt.include-popover .popover.right .arrow {
+    border-right-color: #E74C3C; /* alizarin */
+}
+
+.input-append.plt.include-popover .popover.right .arrow:after,
+.input-prepend.plt.include-popover .popover.right .arrow:after {
+    border-right-color: #E74C3C; /* alizarin */
+}
+
+.input-append.plt.include-popover .popover.bottom .arrow,
+.input-prepend.plt.include-popover .popover.bottom .arrow {
+    border-bottom-color: #c44133;
+}
+
+.input-append.plt.include-popover .popover.bottom .arrow:after,
+.input-prepend.plt.include-popover .popover.bottom .arrow:after {
+    border-bottom-color: #c44133;
+}
+
+.input-append.plt.include-popover .popover.left .arrow,
+.input-prepend.plt.include-popover .popover.left .arrow {
+    border-left-color: #E74C3C; /* alizarin */
+}
+
+.input-append.plt.include-popover .popover.left .arrow:after,
+.input-prepend.plt.include-popover .popover.left .arrow:after {
+    border-left-color: #E74C3C; /* alizarin */
+}
+/* End Optional */
+
+.input-append.plt .add-on,
+.input-prepend.plt .add-on {
+    background-color: #E74C3C; /* alizarin */
+}
+
+.input-append.plt .active,
+.input-prepend.plt .active {
+    border-color: #E74C3C; /* alizarin */
+}
+
+.input-append .add-on.plt,
+.input-prepend .add-on.plt {
+    background-color: #E74C3C; /* alizarin */
+}
+
+/* ===================== txt ==================== */
+
+legend.txt {
+    border-bottom-color: #E74C3C; /* alizarin */
+}
+
+legend.txt small {
+    color: #ec7063; /* alizarin light */
+}
+
+select.txt,
+textarea.txt,
+input[type="text"].txt,
+input[type="password"].txt,
+input[type="datetime"].txt,
+input[type="datetime-local"].txt,
+input[type="date"].txt,
+input[type="month"].txt,
+input[type="time"].txt,
+input[type="week"].txt,
+input[type="number"].txt,
+input[type="email"].txt,
+input[type="url"].txt,
+input[type="search"].txt,
+input[type="tel"].txt,
+input[type="color"].txt,
+.uneditable-input.txt {
+    color: #E74C3C; /* alizarin */
+}
+
+textarea.txt,
+input[type="text"].txt,
+input[type="password"].txt,
+input[type="datetime"].txt,
+input[type="datetime-local"].txt,
+input[type="date"].txt,
+input[type="month"].txt,
+input[type="time"].txt,
+input[type="week"].txt,
+input[type="number"].txt,
+input[type="email"].txt,
+input[type="url"].txt,
+input[type="search"].txt,
+input[type="tel"].txt,
+input[type="color"].txt,
+.uneditable-input.txt {
+    border-color: #E74C3C; /* alizarin */
+}
+
+textarea.txt:focus,
+input[type="text"].txt:focus,
+input[type="password"].txt:focus,
+input[type="datetime"].txt:focus,
+input[type="datetime-local"].txt:focus,
+input[type="date"].txt:focus,
+input[type="month"].txt:focus,
+input[type="time"].txt:focus,
+input[type="week"].txt:focus,
+input[type="number"].txt:focus,
+input[type="email"].txt:focus,
+input[type="url"].txt:focus,
+input[type="search"].txt:focus,
+input[type="tel"].txt:focus,
+input[type="color"].txt:focus,
+.uneditable-input.txt:focus {
+    border-color: #E74C3C; /* alizarin */
+}
+
+select.txt {
+    border-color: #E74C3C; /* alizarin */
+}
+
+/* TODO */
+select.txt:focus,
+input[type="file"].txt:focus,
+input[type="radio"].txt:focus,
+input[type="checkbox"].txt:focus {
+    border-color: #c44133;
+}
+
+.uneditable-input.txt,
+.uneditable-textarea.txt {
+    color: #E74C3C; /* alizarin */
+    background-color: #fcfcfc;
+    border-color: #E74C3C; /* alizarin */
+}
+
+.control-group.txt .control-label,
+.control-group.txt .help-block,
+.control-group.txt .help-inline {
+    color: #E74C3C; /* alizarin */
+}
+
+.control-group.txt .checkbox,
+.control-group.txt .radio,
+.control-group.txt input,
+.control-group.txt select,
+.control-group.txt textarea {
+    color: #E74C3C; /* alizarin */
+}
+
+.control-group.txt input,
+.control-group.txt select,
+.control-group.txt textarea {
+    border-color: #E74C3C; /* alizarin */
+}
+
+.control-group.txt input:focus,
+.control-group.txt select:focus,
+.control-group.txt textarea:focus {
+    border-color: #E74C3C; /* alizarin */
+}
+
+.control-group.txt .input-prepend .add-on,
+.control-group.txt .input-append .add-on {
+    color: #fff;
+    background-color: #E74C3C; /* alizarin */
+}
+
+.form-actions.plt {
+  background-color: #E74C3C; /* alizarin */
+}
+
+.input-append.txt input,
+.input-prepend.txt input,
+.input-append.txt select,
+.input-prepend.txt select,
+.input-append.txt .uneditable-input,
+.input-prepend.txt .uneditable-input {
+    color: #E74C3C; /* alizarin */
+    border-color: #E74C3C; /* alizarin */
+}
+
+.input-append.txt .add-on,
+.input-prepend.txt .add-on {
+  color: #fff;
+    background-color: #E74C3C; /* alizarin */
+}
+
+.input-append.txt .btn,
+.input-prepend.txt .btn {
+  background-color: #E74C3C; /* alizarin */
+  *background-color: #E74C3C; /* alizarin */
+}
+
+.input-append.txt .btn:hover,
+.input-prepend.txt .btn:hover,
+.input-append.txt .btn:focus,
+.input-prepend.txt .btn:focus,
+.input-append.txt .btn:active,
+.input-prepend.txt .btn:active,
+.input-append.txt .btn.active,
+.input-prepend.txt .btn.active,
+.input-append.txt .btn.disabled,
+.input-prepend.txt .btn.disabled,
+.input-append.txt .btn[disabled],
+.input-prepend.txt .btn[disabled] {
+  background-color: #ec7063; /* alizarin light */
+}
+
+.input-append.txt .btn:active,
+.input-prepend.txt .btn:active,
+.input-append.txt .btn.active,
+.input-prepend.txt .btn.active {
+  background-color: #c44133; /* alizarin dark */
+}
+
+.input-append.txt .btn:focus,
+.input-prepend.txt .btn:focus {
+  outline: 0;
+  background-color: #ec7063; /* alizarin light */
+}
+
+
+.input-append .add-on.txt,
+.input-prepend .add-on.txt {
+    color: #E74C3C; /* alizarin */
+}
+
+
+
+/* =================================================
+===   Tables
+================================================= */
+
+
+
+/* ===================== plt ==================== */
+
+.table.plt {
+    color: #fff;
+}
+
+.table.plt th,
+.table.plt td {
+    border-color: #c44133; /* alizarin dark */
+}
+
+.table tr.plt,
+.table th.plt,
+.table td.plt {
+  background-color: #E74C3C; /* alizarin */
+  color: #fff;
+}
+
+.table.plt tbody + tbody {
+    border-top-color: #E74C3C; /* alizarin */
+}
+
+.table-bordered.plt {
+    border-color: #fff;
+}
+
+.table-striped.plt tbody > tr:nth-child(odd) > td,
+.table-striped.plt tbody > tr:nth-child(odd) > th {
+    color: #E74C3C;
+}
+
+.table-hover.plt tbody tr:hover > td,
+.table-hover.plt tbody tr:hover > th {
+    background-color: #ec7063; /* alizarin light */
+}
+
+/* ===================== txt ==================== */
+.table.txt th,
+.table.txt td {
+    border-color: #E74C3C; /* alizarin */
+}
+
+.table-bordered.txt {
+    border-color: #E74C3C; /* alizarin */
+}
+
+.table-striped.txt tbody > tr:nth-child(odd) > td,
+.table-striped.txt tbody > tr:nth-child(odd) > th {
+    color: #fff;
+    background-color: #E74C3C; /* alizarin */
+}
+
+.table-striped.txt.plt tbody > tr:nth-child(odd) > td,
+.table-striped.txt.plt tbody > tr:nth-child(odd) > th {
+  color: #fff;
+    background: #ec7063; /* alizarin light */
+}
+
+.table-hover.txt tbody tr:hover > td,
+.table-hover.txt tbody tr:hover > th {
+  color: #fff;
+    background-color: #E74C3C; /* alizarin */
+}
+
+
+/* =================================================
+===   Dropdown
+================================================= */
+
+/* ===================== txt ==================== */
+.dropdown-menu.txt .divider {
+  background-color: #E74C3C; /* alizarin */
+  border-bottom-color: #E74C3C; /* alizarin */
+}
+
+.dropdown-menu.txt > li > a {
+  color: #E74C3C; /* alizarin */
+}
+
+.dropdown-menu.txt > li > a:hover,
+.dropdown-menu.txt > li > a:focus,
+.dropdown-menu.txt .dropdown-submenu:hover > a,
+.dropdown-menu.txt .dropdown-submenu:focus > a {
+  color: #ffffff;
+  background-color: #E74C3C; /* alizarin */
+}
+
+.dropdown-menu.txt > .active > a,
+.dropdown-menu.txt > .active > a:hover,
+.dropdown-menu.txt > .active > a:focus {
+  color: #ffffff;
+  background-color: #E74C3C; /* alizarin */
+}
+
+.dropdown-menu.txt > .disabled > a,
+.dropdown-menu.txt > .disabled > a:hover,
+.dropdown-menu.txt > .disabled > a:focus {
+  color: #ec7063; /* alizarin light */
+}
+
+.dropdown-menu.txt > .disabled > a:hover,
+.dropdown-menu.txt > .disabled > a:focus {
+  color: #ec7063; /* alizarin light */
+}
+
+.dropdown-menu.txt .dropdown-submenu > a:after {
+  border-left-color: #E74C3C; /* alizarin */
+}
+
+.dropdown-menu.txt .dropdown-submenu:hover > a:after {
+  border-left-color: #fff;
+}
+
+.dropdown-menu.txt .nav-header {
+  color: #c44133; /* alizarin dark */
+}
+
+/* ===================== plt ==================== */
+.dropdown-menu.plt {
+  background-color: #E74C3C; /* alizarin */
+}
+
+.dropdown-menu.plt .divider {
+  background-color: #c44133; /* alizarin dark */
+  border-color: #c44133; /* alizarin dark */
+}
+
+.dropdown-menu.plt > li > a {
+  color: #fff;
+}
+
+.dropdown-menu.plt > li > a:hover,
+.dropdown-menu.plt > li > a:focus,
+.dropdown-menu.plt .dropdown-submenu:hover > a,
+.dropdown-menu.plt .dropdown-submenu:focus > a {
+  color: #ffffff;
+  background-color: #c44133; /* alizarin dark */
+}
+
+.dropdown-menu.plt > .active > a,
+.dropdown-menu.plt > .active > a:hover,
+.dropdown-menu.plt > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #c44133; /* alizarin dark */
+}
+
+.dropdown-menu.plt > .disabled > a,
+.dropdown-menu.plt > .disabled > a:hover,
+.dropdown-menu.plt > .disabled > a:focus {
+  color: #ec7063; /* alizarin light */
+}
+
+.dropdown-menu.plt .dropdown-submenu > a:after {
+  border-left-color: #fff;
+}
+
+.dropdown-menu.plt .dropdown-submenu:hover > a:after {
+  border-left-color: #ffffff;
+}
+
+.dropdown-menu.plt .nav-header {
+  color: #c44133; /* alizarin dark */
+}
+
+/* =================================================
+===   TODO: Typeahead
+================================================= */
+
+/* =================================================
+===   Well
+================================================= */
+
+/* ===================== plt ==================== */
+.well.plt {
+  color: #fff;
+  background-color: #E74C3C; /* alizarin */
+}
+
+/* =================================================
+===   Close button
+================================================= */
+
+/* ===================== txt ==================== */
+.close.txt {
+  color: #E74C3C; /* alizarin */
+}
+
+.close.txt:hover,
+.close.txt:focus {
+  color: #ec7063; /* alizarin light */
+}
+
+/* =================================================
+===   Buttons
+================================================= */
+
+/* ===================== plt ==================== */
+.btn.plt {
+  color: #fff;
+  background-color: #E74C3C; /* alizarin */
+  *background-color: #E74C3C; /* alizarin */
+}
+
+.btn.plt:hover,
+.btn.plt:focus,
+.btn.plt:active,
+.btn.plt.active,
+.btn.plt.disabled,
+.btn.plt[disabled] {
+  color: #fff;
+  background-color: #ec7063; /* alizarin light */
+  *background-color: #ec7063; /* alizarin light */
+}
+
+.btn.plt:active,
+.btn.plt.active {
+  background-color: #c44133; /* alizarin dark */
+}
+
+.btn.plt:focus {
+  outline-color: #c44133; /* alizarin dark */
+}
+
+/* ===================== 3d button ==================== */
+
+.btn-3d.plt {
+  box-shadow: 0 4px #c44133; /* alizarin dark */
+}
+
+.btn-3d.plt:hover,
+.btn-3d.plt:focus {
+  box-shadow: 0 2px #c44133; /* alizarin dark */
+  background: #E74C3C; /* alizarin */
+}
+
+.btn-3d.plt:active {
+  background: #E74C3C; /* alizarin */
+  box-shadow: none;
+}
+
+.btn-large.btn-3d.plt {
+  box-shadow: 0 5px #c44133; /* alizarin dark */
+}
+
+.btn-large.btn-3d.plt:hover,
+.btn-large.btn-3d.plt:focus {
+  background: #E74C3C; /* alizarin */
+  box-shadow: 0 3px #c44133; /* alizarin dark */
+}
+
+.btn-large.btn-3d.plt:active {
+  background: #E74C3C; /* alizarin */
+  box-shadow: none;
+}
+
+.btn-small.btn-3d.plt {
+  box-shadow: 0 3px #c44133; /* alizarin dark */
+}
+
+.btn-small.btn-3d.plt:hover,
+.btn-small.btn-3d.plt:focus {
+  background: #E74C3C; /* alizarin */
+  box-shadow: 0 2px #c44133; /* alizarin dark */
+}
+
+.btn-small.btn-3d.plt:active {
+  box-shadow: none;
+}
+
+.btn-mini.btn-3d.plt {
+  box-shadow: 0 2px #c44133; /* alizarin dark */
+}
+
+.btn-mini.btn-3d.plt:hover,
+.btn-mini.btn-3d.plt:focus {
+  background: #E74C3C; /* alizarin */
+  box-shadow: 0 1px #c44133; /* alizarin dark */
+}
+
+.btn-mini.btn-3d.plt:active {
+  box-shadow: none;
+}
+
+/* =================================================
+===   Alert
+================================================= */
+
+/* ===================== plt ==================== */
+
+.alert.plt {
+  background-color: #F9DAD7;
+  background-color: rgba(231,76,60,0.2); /* alizarin */
+}
+
+.alert.plt h4 {
+  color: inherit;
+}
+
+/* =================================================
+===   Navs
+================================================= */
+
+/* ===================== txt ==================== */
+.nav.txt > li > a,
+.nav.txt > li > a {
+  color: #E74C3C; /* alizarin */
+}
+
+.nav.txt > li > a:hover,
+.nav.txt > li > a:focus {
+  color: #fff;
+  background-color: #ec7063; /* alizarin light */
+}
+
+.nav.txt .nav-header,
+.nav-header.txt {
+  color: #c44133; /* alizarin dark */
+}
+
+.nav-list.txt > li > a:hover,
+.nav-list.txt > li > a:focus {
+  color: #fff;
+  background-color: #ec7063; /* alizarin light */
+}
+
+.nav-list.txt > .active > a,
+.nav-list.txt > .active > a:hover,
+.nav-list.txt > .active > a:focus {
+  color: #fff;
+  background-color: #E74C3C; /* alizarin */
+}
+
+.nav-list.txt .divider,
+.nav-list .divider.txt {
+  background-color: #ec7063; /* alizarin light */
+  border-bottom-color: #ec7063; /* alizarin light */
+}
+
+.nav-tabs.txt > li > a:hover,
+.nav-tabs.txt > li > a:focus {
+  border-color: #ec7063; /* alizarin light */
+}
+
+.nav-tabs.txt > .active > a,
+.nav-tabs.txt > .active > a:hover,
+.nav-tabs.txt > .active > a:focus {
+  color: #E74C3C; /* alizarin */
+  background-color: #fff;
+  border-color: #ECF0F1; /* clouds */
+  border-bottom-color: transparent;
+}
+
+.nav-pills.txt > li > a {
+  color: #E74C3C; /* alizarin */
+}
+
+.nav-pills.txt > .active > a,
+.nav-pills.txt > .active > a:hover,
+.nav-pills.txt > .active > a:focus {
+  color: #fff;
+  background-color: #E74C3C; /* alizarin */
+}
+
+.nav-tabs.nav-stacked.txt > li > a:hover,
+.nav-tabs.nav-stacked.txt > li > a:focus {
+  color: #fff;
+  background: #E74C3C; /* alizarin */
+}
+
+.nav-tabs.nav-stacked.txt > .active > a,
+.nav-tabs.nav-stacked.txt > .active > a:hover,
+.nav-tabs.nav-stacked.txt > .active > a:focus {
+  color: #fff;
+  background-color: #E74C3C; /* alizarin */
+}
+
+.nav.txt .dropdown-toggle .caret {
+  border-top-color: #E74C3C; /* alizarin */
+  border-bottom-color: #E74C3C; /* alizarin */
+}
+
+.nav.txt .dropdown-toggle:hover .caret,
+.nav.txt .dropdown-toggle:focus .caret {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+
+.nav-tabs.txt .active .dropdown-toggle .caret {
+  border-top-color: #E74C3C; /* alizarin */
+  border-bottom-color: #E74C3C; /* alizarin */
+}
+
+.nav-tabs.txt .open .dropdown-toggle,
+.nav-pills.txt .open .dropdown-toggle,
+.nav.txt > li.dropdown.open.active > a:hover,
+.nav.txt > li.dropdown.open.active > a:focus {
+  background-color: #E74C3C; /* alizarin */
+  border-color: #E74C3C; /* alizarin */
+}
+
+.tabs-below > .nav-tabs.txt > li > a:hover,
+.tabs-below > .nav-tabs.txt > li > a:focus {
+  border-color: #ec7063; /* alizarin light */
+}
+
+.tabs-below > .nav-tabs.txt > .active > a,
+.tabs-below > .nav-tabs.txt > .active > a:hover,
+.tabs-below > .nav-tabs.txt > .active > a:focus {
+  border-color: transparent #ECF0F1 #ECF0F1 #ECF0F1; /* clouds */
+}
+
+.tabs-left > .nav-tabs.txt > li > a:hover,
+.tabs-left > .nav-tabs.txt > li > a:focus {
+  border-color: #ec7063; /* alizarin light */
+}
+
+.tabs-left > .nav-tabs.txt .active > a,
+.tabs-left > .nav-tabs.txt .active > a:hover,
+.tabs-left > .nav-tabs.txt .active > a:focus {
+  border-color: #ECF0F1 transparent #ECF0F1 #ECF0F1; /* clouds */
+  *border-right-color: #ffffff;
+}
+
+.tabs-right > .nav-tabs.txt > li > a:hover,
+.tabs-right > .nav-tabs.txt > li > a:focus {
+  border-color: #ec7063; /* alizarin light */
+}
+
+.tabs-right > .nav-tabs.txt .active > a,
+.tabs-right > .nav-tabs.txt .active > a:hover,
+.tabs-right > .nav-tabs.txt .active > a:focus {
+  border-color: #ECF0F1 #ECF0F1 #ECF0F1 transparent; /* clouds */
+  *border-left-color: #ffffff;
+}
+
+.nav.txt > .disabled > a {
+  color: #ec7063; /* alizarin light */
+}
+
+.nav.txt > .disabled > a:hover,
+.nav.txt > .disabled > a:focus {
+  color: #ec7063; /* alizarin light */
+  background: none;
+}
+
+/* ===================== plt ==================== */
+.nav-tabs.nav-stacked.plt > li > a {
+  color: #fff;
+  background: #E74C3C; /* alizarin */
+}
+
+.nav-tabs.nav-stacked.plt > li > a:hover,
+.nav-tabs.nav-stacked.plt > li > a:focus {
+  background-color: #ec7063; /* alizarin light */
+}
+
+.nav-tabs.nav-stacked.plt > .active > a,
+.nav-tabs.nav-stacked.plt > .active > a:hover,
+.nav-tabs.nav-stacked.plt > .active > a:focus {
+  background-color: #ec7063; /* alizarin light */
+}
+
+/* =================================================
+===   Navbar
+================================================= */
+
+/* ===================== plt ==================== */
+
+.navbar.plt .navbar-inner,
+.navbar-inner.plt {
+  background-color: #E74C3C; /* alizarin */
+}
+
+.navbar.plt .brand {
+  color: #fff;
+}
+
+.navbar.plt .navbar-text {
+  color: #fff;
+}
+
+.navbar.plt .navbar-link {
+  color: #fff;
+}
+
+.navbar.plt .navbar-link:hover,
+.navbar.plt .navbar-link:focus {
+  color: #fff;
+  background-color: #c44133; /* alizarin dark */
+}
+
+.navbar.plt .divider-vertical {
+  border-right-color: #c44133; /* alizarin dark */
+  border-left-color: #c44133; /* alizarin dark */
+}
+
+.navbar.plt .navbar-search .search-query {
+  color: #fff;
+  background-color: #ec7063; /* alizarin light */
+}
+
+.navbar.plt .navbar-search .search-query:-moz-placeholder {
+  color: #fff;
+}
+
+.navbar.plt .navbar-search .search-query:-ms-input-placeholder {
+  color: #fff;
+}
+
+.navbar.plt .navbar-search .search-query::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.navbar.plt .nav > li > a {
+  color: #fff;
+}
+
+.navbar.plt .nav > li > a:focus,
+.navbar.plt .nav > li > a:hover {
+  color: #fff;
+  background-color: #c44133; /* alizarin dark */
+}
+
+.navbar.plt .nav > .active > a,
+.navbar.plt .nav > .active > a:hover,
+.navbar.plt .nav > .active > a:focus {
+  background-color: #c44133; /* alizarin dark */
+}
+
+/* collapse button */
+.navbar.plt .btn-navbar {
+  background-color: #c44133; /* alizarin dark */
+  *background-color: #c44133; /* alizarin dark */
+}
+
+.navbar.plt .btn-navbar:hover,
+.navbar.plt .btn-navbar:focus,
+.navbar.plt .btn-navbar:active,
+.navbar.plt .btn-navbar.active,
+.navbar.plt .btn-navbar.disabled,
+.navbar.plt .btn-navbar[disabled] {
+  background-color: #ec7063; /* alizarin light */
+  *background-color: #ec7063; /* alizarin light */
+}
+
+.navbar.plt .btn-navbar:active,
+.navbar.plt .btn-navbar.active {
+  background-color: #ec7063 \9; /* alizarin light */
+}
+
+.navbar.plt .btn-navbar:hover .icon-bar,
+.navbar.plt .btn-navbar:focus .icon-bar,
+.navbar.plt .btn-navbar:active .icon-bar,
+.navbar.plt .btn-navbar.active .icon-bar,
+.navbar.plt .btn-navbar.disabled .icon-bar,
+.navbar.plt .btn-navbar[disabled] .icon-bar {
+  background-color: #fff;
+}
+
+/* dropdown menu pointer (same background-color as dropdown-menu) */
+.navbar .nav > li > .dropdown-menu.plt:before {
+  border-bottom-color: #E74C3C; /* alizarin */
+}
+
+.navbar .nav > li > .dropdown-menu.plt:after {
+  border-bottom-color: #E74C3C; /* alizarin */
+}
+
+.navbar-fixed-bottom .nav > li > .dropdown-menu.plt:before {
+  border-top-color: #E74C3C; /* alizarin */
+}
+
+.navbar-fixed-bottom .nav > li > .dropdown-menu.plt:after {
+  border-top-color: #E74C3C; /* alizarin */
+}
+
+.navbar.plt .nav li.dropdown > a:hover .caret,
+.navbar.plt .nav li.dropdown > a:focus .caret {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+
+.navbar.plt .nav li.dropdown.open > .dropdown-toggle,
+.navbar.plt .nav li.dropdown.active > .dropdown-toggle,
+.navbar.plt .nav li.dropdown.open.active > .dropdown-toggle {
+  color: #fff;
+  background-color: #c44133; /* alizarin dark */
+}
+
+.navbar.plt .nav li.dropdown > .dropdown-toggle .caret {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+
+/* ===================== txt ==================== */
+.navbar.txt .brand {
+  color: #E74C3C; /* alizarin */
+}
+
+.navbar.txt .navbar-text {
+  color: #E74C3C; /* alizarin */
+}
+
+.navbar.txt .navbar-link {
+  color: #E74C3C; /* alizarin */
+}
+
+.navbar.txt .navbar-link:hover,
+.navbar.txt .navbar-link:focus {
+  color: #fff;
+}
+
+.navbar.txt .divider-vertical {
+  border-right-color: #E74C3C; /* alizarin */
+  border-left-color: #E74C3C; /* alizarin */
+}
+
+.navbar.txt .navbar-search .search-query {
+  color: #E74C3C; /* alizarin */
+}
+
+.navbar.txt .nav > li > a {
+  color: #E74C3C; /* alizarin */
+}
+
+.navbar.txt .nav > li > a:focus,
+.navbar.txt .nav > li > a:hover {
+  color: #fff;
+}
+
+.navbar.txt .nav > .active > a,
+.navbar.txt .nav > .active > a:hover,
+.navbar.txt .nav > .active > a:focus {
+  color: #fff;
+}
+
+.navbar.txt .btn-navbar .icon-bar {
+  background-color: #E74C3C; /* alizarin */
+}
+
+.navbar.txt .nav li.dropdown > a .caret,
+.navbar.txt .nav li.dropdown > a .caret {
+  border-top-color: #E74C3C; /* alizarin */
+  border-bottom-color: #E74C3C; /* alizarin */
+}
+
+.navbar.txt .nav li.dropdown > a:hover .caret,
+.navbar.txt .nav li.dropdown > a:focus .caret {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+
+/* =================================================
+===   Breadcrumbs
+================================================= */
+
+/* ===================== plt ==================== */
+.breadcrumb.plt {
+  background-color: #E74C3C; /* alizarin */
+}
+
+.breadcrumb.plt > li a {
+  color: #fff;
+}
+
+.breadcrumb.plt > li > .divider {
+  color: #fff;
+}
+
+.breadcrumb.plt > .active {
+  color: #fff;
+}
+
+/* ===================== txt ==================== */
+.breadcrumb > li.txt a {
+  color: #E74C3C; /* alizarin */
+}
+
+.breadcrumb > li.txt a:hover,
+.breadcrumb > li.txt a:focus {
+  color: #ec7063; /* alizarin light */
+}
+
+.breadcrumb.txt > li a {
+  color: #E74C3C; /* alizarin */
+}
+
+.breadcrumb.txt > li > .divider {
+  color: #E74C3C; /* alizarin */
+}
+
+.breadcrumb.txt > .active {
+  color: #E74C3C; /* alizarin */
+}
+
+/* =================================================
+===   Pagination
+================================================= */
+/* ===================== plt ==================== */
+.pagination.plt {
+  background: none;
+}
+
+.pagination.plt ul > li > a,
+.pagination.plt ul > li > span {
+  background-color: #E74C3C; /* alizarin */
+  color: #fff;
+}
+
+.pagination.plt ul > li > a:hover,
+.pagination.plt ul > li > a:focus,
+.pagination.plt ul > .active > a,
+.pagination.plt ul > .active > span {
+  color: #fff;
+  background-color: #c44133; /* alizarin dark */
+}
+
+.pagination.plt ul > .active > a,
+.pagination.plt ul > .active > span {
+  color: #fff;
+}
+
+.pagination.plt ul > .disabled > span,
+.pagination.plt ul > .disabled > a,
+.pagination.plt ul > .disabled > a:hover,
+.pagination.plt ul > .disabled > a:focus {
+  color: #ec7063; /* alizarin light */
+  background-color: #E74C3C; /* alizarin */
+}
+
+/* ===================== txt ==================== */
+.pagination.txt ul > li > a,
+.pagination.txt ul > li > span {
+  color: #E74C3C; /* alizarin */
+}
+
+.pagination.txt ul > li > a:hover,
+.pagination.txt ul > li > a:focus,
+.pagination.txt ul > .active > a,
+.pagination.txt ul > .active > span {
+  color: #fff;
+}
+
+.pagination.txt ul > .active > a,
+.pagination.txt ul > .active > span {
+  color: #fff;
+}
+
+.pagination.txt ul > .disabled > span,
+.pagination.txt ul > .disabled > a,
+.pagination.txt ul > .disabled > a:hover,
+.pagination.txt ul > .disabled > a:focus {
+  color: #ec7063; /* alizarin light */
+}
+
+/* =================================================
+===   Pager
+================================================= */
+
+/* ===================== plt ==================== */
+.pager.plt {
+  background: none;
+}
+
+.pager.plt li > a,
+.pager.plt li > span {
+  background-color: #E74C3C; /* alizarin */
+  color: #fff;
+}
+
+.pager.plt li > a:hover,
+.pager.plt li > a:focus {
+  background-color: #ec7063; /* alizarin light */
+}
+
+.pager.plt .disabled > a,
+.pager.plt .disabled > a:hover,
+.pager.plt .disabled > a:focus,
+.pager.plt .disabled > span {
+  color: #fff;
+  background-color: #ec7063; /* alizarin light */
+}
+
+/* ===================== txt ==================== */
+
+.pager.txt li > a,
+.pager.txt li > span {
+  color: #E74C3C; /* alizarin */
+}
+
+.pager.txt .disabled > a,
+.pager.txt .disabled > a:hover,
+.pager.txt .disabled > a:focus,
+.pager.txt .disabled > span {
+  color: #ec7063; /* alizarin light */
+}
+
+/* =================================================
+===   Modal
+================================================= */
+.modal.plt {
+  background-color: #fff;
+}
+
+.modal.plt .modal-header,
+.modal-header.plt {
+  color: #fff;
+  background: #E74C3C; /* alizarin */
+  border-bottom-color: #E74C3C; /* alizarin */
+}
+
+.modal-body.plt {
+  color: #fff;
+  background: #E74C3C; /* alizarin */
+}
+
+.modal.plt .modal-header .close,
+.modal-header.plt .close {
+  color: #ecf0f1; /* clouds */
+}
+
+.modal.plt .modal-header .close:hover,
+.modal-header.plt .close:hover,
+.modal.plt .modal-header .close:focus,
+.modal-header.plt .close:focus {
+  color: #fff;
+}
+
+.modal.plt .modal-footer {
+    
+}
+
+/* =================================================
+===   Popover
+================================================= */
+.popover.plt {
+  background-color: #E74C3C; /* alizarin */
+  color: #ffffff;
+}
+
+.popover.plt .popover-title,
+.popover .popover-title.plt,
+.popover .popover-content.plt {
+  background-color: #c44133; /* alizarin dark */
+  color: #ffffff;
+}
+
+.popover.top.plt .arrow {
+  border-top-color: #E74C3C; /* alizarin */
+}
+
+.popover.top.plt .arrow:after {
+    border-top-color: #E74C3C; /* alizarin */
+}
+
+.popover.right.plt .arrow {
+    border-right-color: #E74C3C; /* alizarin */
+}
+
+.popover.right.plt .arrow:after {
+    border-right-color: #E74C3C; /* alizarin */
+}
+
+.popover.bottom.plt .arrow {
+    border-bottom-color: #c44133; /* alizarin dark */
+}
+
+.popover.bottom.plt .arrow:after {
+    border-bottom-color: #c44133; /* alizarin dark */
+}
+
+.popover.left.plt .arrow {
+    border-left-color: #E74C3C; /* alizarin */
+}
+
+.popover.left.plt .arrow:after {
+    border-left-color: #E74C3C; /* alizarin */
+}
+
+/* =================================================
+===   Thumbnails
+================================================= */
+
+/* ===================== plt ==================== */
+
+.thumbnails.plt {
+    background: none;
+}
+
+.thumbnails.plt .thumbnail,
+.thumbnail.plt {
+  background: #E74C3C; /* alizarin */
+}
+
+.thumbnails.plt .caption,
+.thumbnail.plt .caption {
+    color: #fff;
+}
+
+.thumbnails.plt a.thumbnail:hover,
+a.thumbnail.plt:hover,
+.thumbnails.plt a.thumbnail:focus,
+a.thumbnail.plt:focus {
+  background: #ec7063; /* alizarin light */
+}
+
+/* =================================================
+===   Labels & Badges (no additional rules here)
+================================================= */
+
+/* =================================================
+===   Progress Bars
+================================================= */
+.progress.plt {
+  background-color: #ECF0F1; /* clouds */
+}
+
+.progress.plt .bar,
+.progress .bar.plt {
+  background-color: #E74C3C; /* alizarin */
+}
+
+.progress-striped.plt .bar {
+  background-color: #E74C3C; /* alizarin */
+}
+
+/* =================================================
+===   Accordion
+================================================= */
+.accordion.plt {
+  background: none;
+}
+
+.accordion.plt .accordion-group {
+  border-color: #E74C3C; /* alizarin */
+}
+
+.accordion.plt .accordion-heading {
+  border-color: #E74C3C; /* alizarin */
+  background-color: #E74C3C; /* alizarin */
+}
+
+.accordion.plt .accordion-heading .accordion-toggle {
+  color: #fff;
+}
+
+.accordion.plt .accordion-inner {
+  border-top-color: #E74C3C; /* alizarin */
+}
+
+
+/* =================================================
+===   Hero Unit
+================================================= */
+.hero-unit h1.txt {
+  color: #E74C3C; /* alizarin */
+}
+
+
+
+
+
+
+
+.btn.plt.fc-state-active {
+  background-color: #c44133; /* alizarin dark */
+}
+
+
+
+
+hr.double.txt {
+    border-bottom-color: #E74C3C;
+    border-top-color: #E74C3C;
+}

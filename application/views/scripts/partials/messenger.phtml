@@ -1,0 +1,28 @@
+<?php if (!empty($this->messages['success'])): ?>
+    <script>
+    <?php
+    foreach ((array) $this->messages['success'] as $key => $msg) {
+        echo 'alertify.log("' . $msg . '", "success", 2000);';
+    }
+    ?>
+    </script>
+<?php endif ?>
+<?php if (!empty($this->messages['error'])): ?>
+    <script>
+    <?php
+    foreach ((array) $this->messages['error'] as $key => $msg) {
+        echo 'alertify.log("' . $msg . '", "error", 2000);';
+    }
+    ?>
+    </script>
+<?php endif ?>
+<?php if (!empty($this->messages['info'])): ?>
+    <script>
+    <?php
+    foreach ((array) $this->messages['info'] as $key => $msg) {
+        echo 'alertify.log("' . $msg . '", "notification", 2000);';
+    }
+    ?>
+    </script>
+    <?php
+ endif ?>

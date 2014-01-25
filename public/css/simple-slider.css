@@ -1,0 +1,35 @@
+.slider {
+  width: 300px;
+}
+
+.slider > .dragger {
+  background: #1abc9c; /* turquoise */
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+  width: 16px;
+  height: 16px;
+
+  margin-left: -4px;
+}
+
+.slider > .dragger:hover {
+  background: #48c9b0; /* turquoise light */
+}
+
+.slider > .track, .slider > .highlight-track {
+  background: #ecf0f1; /* clouds */
+
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+
+  height: 4px;
+}
+
+.slider > .highlight-track {
+	background-color: #1abc9c; /* turquoise */
+}
+

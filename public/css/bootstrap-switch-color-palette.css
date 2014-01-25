@@ -1,0 +1,32 @@
+.has-switch.plt {
+  background-color: inherit;
+}
+
+.has-switch span.switch-pltwithoutdout {
+  color: #ffffff;
+  text-shadow: none;
+  background-color: #ec7063; /* alizarin light */
+  *background-color: #ec7063; /* alizarin light */
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+.has-switch.plt label {
+  background-color: #E74C3C; /* alizarin */
+  *background-color: #E74C3C; /* alizarin */
+}
+
+.has-switch span.switch-pltwithoutdout:hover,
+.has-switch span.switch-pltwithoutdout:focus,
+.has-switch span.switch-pltwithoutdout:active,
+.has-switch span.switch-pltwithoutdout.active,
+.has-switch span.switch-pltwithoutdout.disabled,
+.has-switch span.switch-pltwithoutdout[disabled] {
+  color: #ffffff;
+  background-color: #ec7063; /* alizarin light */
+  *background-color: #ec7063; /* alizarin light */
+}
+.has-switch span.switch-pltwithoutdout:active,
+.has-switch span.switch-pltwithoutdout.active {
+  background-color: #ec7063 \9; /* alizarin light */
+}

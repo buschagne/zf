@@ -1,0 +1,15 @@
+.slider.plt {
+  background: inherit;
+}
+
+.slider.plt > .dragger {
+  background: #E74C3C; /* alizarin */
+}
+
+.slider.plt > .dragger:hover {
+  background: #ec7063; /* alizarin light */
+}
+
+.slider.plt > .highlight-track {
+  background-color: #E74C3C; /* alizarin */
+}

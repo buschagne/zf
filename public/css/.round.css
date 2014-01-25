@@ -1,0 +1,410 @@
+.round-mini {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/***
+ * Forms
+ ***/
+select.round-mini,
+textarea.round-mini,
+input[type="text"].round-mini,
+input[type="password"].round-mini,
+input[type="datetime"].round-mini,
+input[type="datetime-local"].round-mini,
+input[type="date"].round-mini,
+input[type="month"].round-mini,
+input[type="time"].round-mini,
+input[type="week"].round-mini,
+input[type="number"].round-mini,
+input[type="email"].round-mini,
+input[type="url"].round-mini,
+input[type="search"].round-mini,
+input[type="tel"].round-mini,
+input[type="color"].round-mini,
+.uneditable-input.round-mini {
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.input-append.round-mini input,
+.input-prepend.round-mini input,
+.input-append.round-mini select,
+.input-prepend.round-mini select,
+.input-append.round-mini .uneditable-input,
+.input-prepend.round-mini .uneditable-input {
+  -webkit-border-radius: 0 3px 3px 0;
+     -moz-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
+}
+
+.input-prepend.round-mini .add-on:first-child,
+.input-prepend.round-mini .btn:first-child {
+  -webkit-border-radius: 3px 0 0 3px;
+     -moz-border-radius: 3px 0 0 3px;
+          border-radius: 3px 0 0 3px;
+}
+
+.input-append.round-mini input,
+.input-append.round-mini select,
+.input-append.round-mini .uneditable-input {
+  -webkit-border-radius: 3px 0 0 3px;
+     -moz-border-radius: 3px 0 0 3px;
+          border-radius: 3px 0 0 3px;
+}
+
+.input-append.round-mini input + .btn-group .btn:last-child,
+.input-append.round-mini select + .btn-group .btn:last-child,
+.input-append.round-mini .uneditable-input + .btn-group .btn:last-child {
+  -webkit-border-radius: 0 3px 3px 0;
+     -moz-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
+}
+
+.input-append.round-mini .add-on:last-child,
+.input-append.round-mini .btn:last-child,
+.input-append.round-mini .btn-group:last-child > .dropdown-toggle {
+  -webkit-border-radius: 0 3px 3px 0;
+     -moz-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
+}
+
+.input-prepend.input-append.round-mini input + .btn-group .btn,
+.input-prepend.input-append.round-mini select + .btn-group .btn,
+.input-prepend.input-append.round-mini .uneditable-input + .btn-group .btn {
+  -webkit-border-radius: 0 3px 3px 0;
+     -moz-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
+}
+
+.input-prepend.input-append.round-mini .add-on:first-child,
+.input-prepend.input-append.round-mini .btn:first-child {
+  -webkit-border-radius: 3px 0 0 3px;
+     -moz-border-radius: 3px 0 0 3px;
+          border-radius: 3px 0 0 3px;
+}
+
+.input-prepend.input-append.round-mini .add-on:last-child,
+.input-prepend.input-append.round-mini .btn:last-child {
+  -webkit-border-radius: 0 3px 3px 0;
+     -moz-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
+}
+
+input.search-query.round-mini { /* !!!!!!!!!!!!!! increase padding here for smaller round-classes */
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.form-search .input-append.round-mini .search-query {
+  -webkit-border-radius: 3px 0 0 3px;
+     -moz-border-radius: 3px 0 0 3px;
+          border-radius: 3px 0 0 3px;
+}
+
+.form-search .input-append.round-mini .btn {
+  -webkit-border-radius: 0 3px 3px 0;
+     -moz-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
+}
+
+.form-search .input-prepend.round-mini .search-query {
+  -webkit-border-radius: 0 3px 3px 0;
+     -moz-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
+}
+
+.form-search .input-prepend.round-mini .btn {
+  -webkit-border-radius: 3px 0 0 3px;
+     -moz-border-radius: 3px 0 0 3px;
+          border-radius: 3px 0 0 3px;
+}
+
+/***
+ * Tables
+ ***/
+.table-bordered.round-mini {
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.table-bordered.round-mini thead:first-child tr:first-child > th:first-child,
+.table-bordered.round-mini tbody:first-child tr:first-child > td:first-child,
+.table-bordered.round-mini tbody:first-child tr:first-child > th:first-child {
+  -webkit-border-top-left-radius: 3px;
+          border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+}
+
+.table-bordered.round-mini thead:first-child tr:first-child > th:last-child,
+.table-bordered.round-mini tbody:first-child tr:first-child > td:last-child,
+.table-bordered.round-mini tbody:first-child tr:first-child > th:last-child {
+  -webkit-border-top-right-radius: 3px;
+          border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+}
+
+.table-bordered.round-mini thead:last-child tr:last-child > th:first-child,
+.table-bordered.round-mini tbody:last-child tr:last-child > td:first-child,
+.table-bordered.round-mini tbody:last-child tr:last-child > th:first-child,
+.table-bordered.round-mini tfoot:last-child tr:last-child > td:first-child,
+.table-bordered.round-mini tfoot:last-child tr:last-child > th:first-child {
+  -webkit-border-bottom-left-radius: 3px;
+          border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+}
+
+.table-bordered.round-mini thead:last-child tr:last-child > th:last-child,
+.table-bordered.round-mini tbody:last-child tr:last-child > td:last-child,
+.table-bordered.round-mini tbody:last-child tr:last-child > th:last-child,
+.table-bordered.round-mini tfoot:last-child tr:last-child > td:last-child,
+.table-bordered.round-mini tfoot:last-child tr:last-child > th:last-child {
+  -webkit-border-bottom-right-radius: 3px;
+          border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+}
+
+.table-bordered.round-mini caption + thead tr:first-child th:first-child,
+.table-bordered.round-mini caption + tbody tr:first-child td:first-child,
+.table-bordered.round-mini colgroup + thead tr:first-child th:first-child,
+.table-bordered.round-mini colgroup + tbody tr:first-child td:first-child {
+  -webkit-border-top-left-radius: 3px;
+          border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+}
+
+.table-bordered.round-mini caption + thead tr:first-child th:last-child,
+.table-bordered.round-mini caption + tbody tr:first-child td:last-child,
+.table-bordered.round-mini colgroup + thead tr:first-child th:last-child,
+.table-bordered.round-mini colgroup + tbody tr:first-child td:last-child {
+  -webkit-border-top-right-radius: 3px;
+          border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+}
+
+/***
+ * Dropdown
+ ***/
+
+/***
+ * Typeahead
+ ***/
+
+/***
+ * Well (* no need to declare)
+ ***/
+
+/***
+ * Button (* no need to declare)
+ ***/
+.btn-group.round-mini > .btn:first-child {
+  -webkit-border-bottom-left-radius: 3px;
+          border-bottom-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+          border-top-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -moz-border-radius-topleft: 3px;
+}
+
+.btn-group.round-mini > .btn:last-child,
+.btn-group.round-mini > .dropdown-toggle {
+  -webkit-border-top-right-radius: 3px;
+          border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+          border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+}
+
+.btn-group-vertical.round-mini > .btn:first-child {
+  -webkit-border-radius: 3px 3px 0 0;
+     -moz-border-radius: 3px 3px 0 0;
+          border-radius: 3px 3px 0 0;
+}
+
+.btn-group-vertical.round-mini > .btn:last-child {
+  -webkit-border-radius: 0 0 3px 3px;
+     -moz-border-radius: 0 0 3px 3px;
+          border-radius: 0 0 3px 3px;
+}
+
+/***
+ * Alert (* no need to declare)
+ ***/
+
+ /***
+ * Nav
+ ***/
+ .nav-tabs.round-mini > li > a {
+  -webkit-border-radius: 3px 3px 0 0;
+     -moz-border-radius: 3px 3px 0 0;
+          border-radius: 3px 3px 0 0;
+}
+
+.nav-pills.round-mini > li > a {
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.nav-tabs.nav-stacked.round-mini > li > a {
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+
+.nav-tabs.nav-stacked.round-mini > li:first-child > a {
+  -webkit-border-top-right-radius: 3px;
+          border-top-right-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+          border-top-left-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-topleft: 3px;
+}
+
+.nav-tabs.nav-stacked.round-mini > li:last-child > a {
+  -webkit-border-bottom-right-radius: 3px;
+          border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+          border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -moz-border-radius-bottomleft: 3px;
+}
+
+.tabs-below > .nav-tabs.round-mini > li > a {
+  -webkit-border-radius: 0 0 3px 3px;
+     -moz-border-radius: 0 0 3px 3px;
+          border-radius: 0 0 3px 3px;
+}
+
+.tabs-left > .nav-tabs.round-mini > li > a {
+  -webkit-border-radius: 3px 0 0 3px;
+     -moz-border-radius: 3px 0 0 3px;
+          border-radius: 3px 0 0 3px;
+}
+
+.tabs-right > .nav-tabs.round-mini > li > a {
+  margin-left: -1px;
+  -webkit-border-radius: 0 3px 3px 0;
+     -moz-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
+}
+
+/***
+ * Navbar (* no need to declare)
+ ***/
+
+ /***
+ * Breadcrumb (* no need to declare)
+ ***/
+
+/***
+ * Pagination
+ ***/
+.pagination.round-mini ul {
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.pagination.round-mini ul > li:first-child > a,
+.pagination.round-mini ul > li:first-child > span {
+  -webkit-border-bottom-left-radius: 3px;
+          border-bottom-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+          border-top-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -moz-border-radius-topleft: 3px;
+}
+
+.pagination.round-mini ul > li:last-child > a,
+.pagination.round-mini ul > li:last-child > span {
+  -webkit-border-top-right-radius: 3px;
+          border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+          border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+}
+
+/***
+ * Pager
+ ***/
+.pager.round-mini li > a,
+.pager.round-mini li > span {
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+/***
+ * Modal
+ ***/
+.modal.round-mini {
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.modal.round-mini .modal-footer {
+  -webkit-border-radius: 0 0 3px 3px;
+     -moz-border-radius: 0 0 3px 3px;
+          border-radius: 0 0 3px 3px;
+}
+
+/***
+ * Tooltip (* will need to use data-attributes)
+ ***/
+.tooltip.round-mini .tooltip-inner {
+	-webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+ /***
+ * Popover (* will need to use data-attributes)
+ ***/
+.popover.round-mini {
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.popover.round-mini .popover-title {
+  -webkit-border-radius: 3px 3px 0 0;
+     -moz-border-radius: 3px 3px 0 0;
+          border-radius: 3px 3px 0 0;
+}
+
+/***
+ * Thumbnail (* no need to declare)
+ ***/
+
+/***
+ * Media object (* no need to declare)
+ ***/ 
+
+/***
+ * Labels & badges (* no need to declare)
+ ***/  
+
+/***
+ * Progress bars (* no need to declare)
+ ***/
+
+ /***
+ * Accordion (* no need to declare)
+ ***/
+
+/***
+ * Carousel indicators and controls (* no need to declare)
+ ***/
+
+ /***
+ * Hero Unit (* no need to declare)
+ ***/
+
