@@ -10,14 +10,36 @@ class Api_IndexController extends Zend_Controller_Action {
     public function indexAction()
     {
         echo 'yebo';
-        $this->_consumeTwitter();
+        
     }
 
     public function consumeAction()
     {
         echo 'consume';
+        $this->_consumeTwitter();
         $this->_helper->layout->disableLAyout();
         $this->getHelper('viewRenderer')->setNoRender(true);
+    }
+    
+    public function youtubeAction()
+    {
+        $client = new Zend_Gdata_YouTube();
+        $feed = $client->getVideoFeed(
+                'http://gdata.youtube.com/feeds/api/standardfeeds/most_popular?max-results=5'
+                );
+        $this->view->mostViewed = array();
+        foreach ($feed as $entry) {
+            $this->view->mostViewed[] = array(
+              
+                'title'=> $entry->getVideoTitle(),
+                'rating'=> $entry->getVideoRatingInfo(),
+                'category'=> $entry->getVideoCategory(),
+           
+                'watch'=> $entry->getVideoWatchPageUrl()                
+            );
+            
+        }
+        
     }
 
     protected function _consumeTwitter()
