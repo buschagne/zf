@@ -15,7 +15,13 @@ class Reader_IndexController extends Zend_Controller_Action {
     public function feedAction()
     {
         
-        $feed = Zend_Feed_Reader::import('http://news.tamboer.co.za/feed/');
+       
+    $url = 'http://news.tamboer.co.za/feed/atom/';
+    $url1 = 'http://news.tamboer.co.za/wp-atom.php';
+    $url2 = 'http://news.tamboer.co.za/?feed=atom';
+
+        
+        $feed = Zend_Feed_Reader::import($url);
         
         $this->view->feed = array(
             'title' => $feed->getTitle(),
