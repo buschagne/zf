@@ -1,0 +1,13 @@
+<?php 
+
+foreach ($this->results as $key => $value) {
+
+    foreach ($value as $k => $v) {
+        if(!is_array($v)) {
+            echo $v . '<br>';
+        } else {
+            Zend_Debug::dump($v);
+        }
+    }
+}
+?>
