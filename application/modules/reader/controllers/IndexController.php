@@ -12,12 +12,15 @@ class Reader_IndexController extends Zend_Controller_Action {
         // action body
     }
 
+    public function newsAction()
+    {
+        $this->_readFeed();        
+    }
+     
     public function feedAction()
     {
-        //$this->_readFeed();
-        $this->_createFeed2();
+        $this->_createFeed();
     }
-        
       
     protected function _readFeed()
     {
@@ -46,39 +49,8 @@ class Reader_IndexController extends Zend_Controller_Action {
             
         );
     }
-    
+       
     protected function _createFeed()
-    {
-        
-        $output = array(
-            'title' => 'New posts',
-            'description' => 'http://zf/',
-            'author' => 'author Name',
-            'charset' => 'UTF-8',
-            'entries' => array(),
-            
-            
-        );
-        
-        $data = array(
-            'title' => 'titel ....',
-            'link' => 0,
-            'description' => 'desc ....',
-            'lastUpdate' => 'last updated ...',
-        );
-        $output['entries'] = $data;
-        
-        $feed = Zend_Feed::importArray($output, 'atom');
-        
-        $this->_helper->layout->disableLayout();
-        $this->getHelper('viewRenderer')->setNoRender(true);
-        
-        $feed->send();
-        exit();
-        
-    }
-    
-    protected function _createFeed2()
     {
 
         $entries = array(
