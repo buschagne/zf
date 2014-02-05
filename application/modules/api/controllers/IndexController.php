@@ -11,6 +11,23 @@ class Api_IndexController extends Zend_Controller_Action {
     {
         echo 'yebo';
         
+        $cities = array(
+          'London','Amsterdam','Paris','Johannesburg'  
+        );
+        
+        try{
+            $iterator = new ArrayIterator($cities);
+            $iterator->seek(10);
+        }catch (Exception $e){
+            echo "Error: Something went wrong<br>";
+            echo "Msg: ".$e->getMessage() . "<br>";
+            echo "Code: ".$e->getCode(). "<br>";
+            echo "File: ".$e->getFile() . "<br>";
+            echo "Line: ".$e->getLine() . "<br>";
+            echo "Backtrace: ".$e->getTraceAsString() . "<br>";
+            
+            
+        }
     }
 
     public function consumeAction()
