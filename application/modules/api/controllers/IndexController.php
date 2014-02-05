@@ -17,7 +17,7 @@ class Api_IndexController extends Zend_Controller_Action {
     {
         echo 'consume';
         $this->_consumeTwitter();
-        $this->_helper->layout->disableLAyout();
+        $this->_helper->layout->disableLayout();
         $this->getHelper('viewRenderer')->setNoRender(true);
     }
     
